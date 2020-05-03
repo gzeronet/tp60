@@ -1,0 +1,1951 @@
+EESchema Schematic File Version 4
+LIBS:tp60-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "tp60"
+Date "2020-04-07"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7150 1150 7150 1850
+Wire Wire Line
+	8550 1150 8550 1850
+Wire Wire Line
+	9250 1150 9250 1850
+Wire Wire Line
+	9950 1150 9950 1850
+Text Label 14850 1150 1    50   ~ 0
+col13
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5E82B011
+P 6150 1850
+F 0 "K1" H 6150 2083 60  0000 C CNN
+F 1 "KEYSW" H 6150 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 1850 60  0001 C CNN
+F 3 "" H 6150 1850 60  0000 C CNN
+	1    6150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5E82BF1E
+P 5850 2000
+F 0 "D1" V 5896 1921 50  0000 R CNN
+F 1 "IN4148" V 5805 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 2000 50  0001 C CNN
+F 3 "~" H 5850 2000 50  0001 C CNN
+	1    5850 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 1150 6450 1850
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5E833A18
+P 6850 1850
+F 0 "K2" H 6850 2083 60  0000 C CNN
+F 1 "KEYSW" H 6850 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6850 1850 60  0001 C CNN
+F 3 "" H 6850 1850 60  0000 C CNN
+	1    6850 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 1850
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5E83436D
+P 8250 1850
+F 0 "K4" H 8250 2083 60  0000 C CNN
+F 1 "KEYSW" H 8250 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 1850 60  0001 C CNN
+F 3 "" H 8250 1850 60  0000 C CNN
+	1    8250 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 1850
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5E8347E7
+P 8950 1850
+F 0 "K5" H 8950 2083 60  0000 C CNN
+F 1 "KEYSW" H 8950 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8950 1850 60  0001 C CNN
+F 3 "" H 8950 1850 60  0000 C CNN
+	1    8950 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9250 1850
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5E834C8F
+P 9650 1850
+F 0 "K6" H 9650 2083 60  0000 C CNN
+F 1 "KEYSW" H 9650 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 1850 60  0001 C CNN
+F 3 "" H 9650 1850 60  0000 C CNN
+	1    9650 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 1850
+$Comp
+L keyboard_parts:KEYSW K7
+U 1 1 5E836E4B
+P 11050 1850
+F 0 "K7" H 11050 2083 60  0000 C CNN
+F 1 "KEYSW" H 11050 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 1850 60  0001 C CNN
+F 3 "" H 11050 1850 60  0000 C CNN
+	1    11050 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K8
+U 1 1 5E837A4D
+P 11750 1850
+F 0 "K8" H 11750 2083 60  0000 C CNN
+F 1 "KEYSW" H 11750 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11750 1850 60  0001 C CNN
+F 3 "" H 11750 1850 60  0000 C CNN
+	1    11750 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 5E837DD3
+P 12450 1850
+F 0 "K9" H 12450 2083 60  0000 C CNN
+F 1 "KEYSW" H 12450 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 1850 60  0001 C CNN
+F 3 "" H 12450 1850 60  0000 C CNN
+	1    12450 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 5E8380E2
+P 13150 1850
+F 0 "K10" H 13150 2083 60  0000 C CNN
+F 1 "KEYSW" H 13150 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 1850 60  0001 C CNN
+F 3 "" H 13150 1850 60  0000 C CNN
+	1    13150 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 5E838D64
+P 13850 1850
+F 0 "K11" H 13850 2083 60  0000 C CNN
+F 1 "KEYSW" H 13850 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13850 1850 60  0001 C CNN
+F 3 "" H 13850 1850 60  0000 C CNN
+	1    13850 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 5E8390DD
+P 14550 1850
+F 0 "K12" H 14550 2083 60  0000 C CNN
+F 1 "KEYSW" H 14550 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 1850 60  0001 C CNN
+F 3 "" H 14550 1850 60  0000 C CNN
+	1    14550 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5E83A390
+P 6550 2000
+F 0 "D2" V 6596 1921 50  0000 R CNN
+F 1 "IN4148" V 6505 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 2000 50  0001 C CNN
+F 3 "~" H 6550 2000 50  0001 C CNN
+	1    6550 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6550 2150
+$Comp
+L Device:D D4
+U 1 1 5E83AD08
+P 7950 2000
+F 0 "D4" V 7996 1921 50  0000 R CNN
+F 1 "IN4148" V 7905 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 2000 50  0001 C CNN
+F 3 "~" H 7950 2000 50  0001 C CNN
+	1    7950 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7950 2150
+Wire Wire Line
+	7950 2150 8650 2150
+$Comp
+L Device:D D5
+U 1 1 5E83CAB4
+P 8650 2000
+F 0 "D5" V 8696 1921 50  0000 R CNN
+F 1 "IN4148" V 8605 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8650 2000 50  0001 C CNN
+F 3 "~" H 8650 2000 50  0001 C CNN
+	1    8650 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8650 2150
+Wire Wire Line
+	8650 2150 9350 2150
+$Comp
+L Device:D D6
+U 1 1 5E83CE85
+P 9350 2000
+F 0 "D6" V 9396 1921 50  0000 R CNN
+F 1 "IN4148" V 9305 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 2000 50  0001 C CNN
+F 3 "~" H 9350 2000 50  0001 C CNN
+	1    9350 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9350 2150
+Wire Wire Line
+	9350 2150 10750 2150
+$Comp
+L Device:D D7
+U 1 1 5E83D270
+P 10750 2000
+F 0 "D7" V 10796 1921 50  0000 R CNN
+F 1 "IN4148" V 10705 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10750 2000 50  0001 C CNN
+F 3 "~" H 10750 2000 50  0001 C CNN
+	1    10750 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10750 2150
+$Comp
+L Device:D D8
+U 1 1 5E83ECC2
+P 11450 2000
+F 0 "D8" V 11496 1921 50  0000 R CNN
+F 1 "IN4148" V 11405 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11450 2000 50  0001 C CNN
+F 3 "~" H 11450 2000 50  0001 C CNN
+	1    11450 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11450 2150
+$Comp
+L Device:D D9
+U 1 1 5E83EFA3
+P 12150 2000
+F 0 "D9" V 12196 1921 50  0000 R CNN
+F 1 "IN4148" V 12105 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12150 2000 50  0001 C CNN
+F 3 "~" H 12150 2000 50  0001 C CNN
+	1    12150 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12150 2150
+$Comp
+L Device:D D10
+U 1 1 5E83F276
+P 12850 2000
+F 0 "D10" V 12896 1921 50  0000 R CNN
+F 1 "IN4148" V 12805 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12850 2000 50  0001 C CNN
+F 3 "~" H 12850 2000 50  0001 C CNN
+	1    12850 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12850 2150
+$Comp
+L Device:D D11
+U 1 1 5E83F635
+P 13550 2000
+F 0 "D11" V 13596 1921 50  0000 R CNN
+F 1 "IN4148" V 13505 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13550 2000 50  0001 C CNN
+F 3 "~" H 13550 2000 50  0001 C CNN
+	1    13550 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13550 2150
+$Comp
+L Device:D D12
+U 1 1 5E83F955
+P 14250 2000
+F 0 "D12" V 14296 1921 50  0000 R CNN
+F 1 "IN4148" V 14205 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14250 2000 50  0001 C CNN
+F 3 "~" H 14250 2000 50  0001 C CNN
+	1    14250 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14250 2150
+Text Label 6450 1150 1    50   ~ 0
+col01
+Text Label 7150 1150 1    50   ~ 0
+col02
+Text Label 7850 1150 1    50   ~ 0
+col03
+Text Label 8550 1150 1    50   ~ 0
+col04
+Text Label 9250 1150 1    50   ~ 0
+col05
+Text Label 9950 1150 1    50   ~ 0
+col06
+Text Label 10650 1150 1    50   ~ 0
+col07
+Text Label 11350 1150 1    50   ~ 0
+col08
+Text Label 12050 1150 1    50   ~ 0
+col09
+Text Label 12750 1150 1    50   ~ 0
+col10
+Text Label 13450 1150 1    50   ~ 0
+col11
+Text Label 14150 1150 1    50   ~ 0
+col12
+Connection ~ 6450 1850
+Wire Wire Line
+	7250 2150 7950 2150
+Connection ~ 7250 2150
+Wire Wire Line
+	6550 2150 7250 2150
+$Comp
+L Device:D D3
+U 1 1 5E83AA06
+P 7250 2000
+F 0 "D3" V 7296 1921 50  0000 R CNN
+F 1 "IN4148" V 7205 1921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7250 2000 50  0001 C CNN
+F 3 "~" H 7250 2000 50  0001 C CNN
+	1    7250 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7850 1850
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5E833ED1
+P 7550 1850
+F 0 "K3" H 7550 2083 60  0000 C CNN
+F 1 "KEYSW" H 7550 1750 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 1850 60  0001 C CNN
+F 3 "" H 7550 1850 60  0000 C CNN
+	1    7550 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1150 7850 1850
+$Comp
+L Device:D D13
+U 1 1 5E9A2914
+P 5850 2950
+F 0 "D13" V 5896 2871 50  0000 R CNN
+F 1 "IN4148" V 5805 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 2950 50  0001 C CNN
+F 3 "~" H 5850 2950 50  0001 C CNN
+	1    5850 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5E9A3284
+P 5850 4850
+F 0 "D38" V 5896 4771 50  0000 R CNN
+F 1 "IN4148" V 5805 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 4850 50  0001 C CNN
+F 3 "~" H 5850 4850 50  0001 C CNN
+	1    5850 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K13
+U 1 1 5E9CCFF7
+P 6150 2800
+F 0 "K13" H 6150 3033 60  0000 C CNN
+F 1 "KEYSW" H 6150 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 2800 60  0001 C CNN
+F 3 "" H 6150 2800 60  0000 C CNN
+	1    6150 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K38
+U 1 1 5E9CD932
+P 6150 4700
+F 0 "K38" H 6150 4933 60  0000 C CNN
+F 1 "KEYSW" H 6150 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 4700 60  0001 C CNN
+F 3 "" H 6150 4700 60  0000 C CNN
+	1    6150 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K14
+U 1 1 5E9CE27B
+P 6850 2800
+F 0 "K14" H 6850 3033 60  0000 C CNN
+F 1 "KEYSW" H 6850 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6850 2800 60  0001 C CNN
+F 3 "" H 6850 2800 60  0000 C CNN
+	1    6850 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5E9CE749
+P 6550 2950
+F 0 "D14" V 6596 2871 50  0000 R CNN
+F 1 "IN4148" V 6505 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 2950 50  0001 C CNN
+F 3 "~" H 6550 2950 50  0001 C CNN
+	1    6550 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6550 3100
+$Comp
+L Device:D D27
+U 1 1 5E9CEB9B
+P 6550 3900
+F 0 "D27" V 6596 3821 50  0000 R CNN
+F 1 "IN4148" V 6505 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 3900 50  0001 C CNN
+F 3 "~" H 6550 3900 50  0001 C CNN
+	1    6550 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6550 4050
+$Comp
+L Device:D D39
+U 1 1 5E9CF052
+P 6550 4850
+F 0 "D39" V 6596 4771 50  0000 R CNN
+F 1 "IN4148" V 6505 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 4850 50  0001 C CNN
+F 3 "~" H 6550 4850 50  0001 C CNN
+	1    6550 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6550 5000
+$Comp
+L Device:D D15
+U 1 1 5E9CFD7E
+P 7250 2950
+F 0 "D15" V 7296 2871 50  0000 R CNN
+F 1 "IN4148" V 7205 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7250 2950 50  0001 C CNN
+F 3 "~" H 7250 2950 50  0001 C CNN
+	1    7250 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7250 3100
+$Comp
+L Device:D D28
+U 1 1 5E9D02D3
+P 7250 3900
+F 0 "D28" V 7296 3821 50  0000 R CNN
+F 1 "IN4148" V 7205 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7250 3900 50  0001 C CNN
+F 3 "~" H 7250 3900 50  0001 C CNN
+	1    7250 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7250 4050
+Wire Wire Line
+	7250 4050 6550 4050
+$Comp
+L Device:D D40
+U 1 1 5E9D089C
+P 7250 4850
+F 0 "D40" V 7296 4771 50  0000 R CNN
+F 1 "IN4148" V 7205 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7250 4850 50  0001 C CNN
+F 3 "~" H 7250 4850 50  0001 C CNN
+	1    7250 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7250 5000
+$Comp
+L Device:D D52
+U 1 1 5E9D0E34
+P 7250 5900
+F 0 "D52" V 7296 5821 50  0000 R CNN
+F 1 "IN4148" V 7205 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7250 5900 50  0001 C CNN
+F 3 "~" H 7250 5900 50  0001 C CNN
+	1    7250 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7250 6050
+$Comp
+L keyboard_parts:KEYSW K15
+U 1 1 5E9D134B
+P 7550 2800
+F 0 "K15" H 7550 3033 60  0000 C CNN
+F 1 "KEYSW" H 7550 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 2800 60  0001 C CNN
+F 3 "" H 7550 2800 60  0000 C CNN
+	1    7550 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K16
+U 1 1 5E9D1BD3
+P 8250 2800
+F 0 "K16" H 8250 3033 60  0000 C CNN
+F 1 "KEYSW" H 8250 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 2800 60  0001 C CNN
+F 3 "" H 8250 2800 60  0000 C CNN
+	1    8250 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K17
+U 1 1 5E9D21CD
+P 8950 2800
+F 0 "K17" H 8950 3033 60  0000 C CNN
+F 1 "KEYSW" H 8950 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8950 2800 60  0001 C CNN
+F 3 "" H 8950 2800 60  0000 C CNN
+	1    8950 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K18
+U 1 1 5E9D27E1
+P 9650 2800
+F 0 "K18" H 9650 3033 60  0000 C CNN
+F 1 "KEYSW" H 9650 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 2800 60  0001 C CNN
+F 3 "" H 9650 2800 60  0000 C CNN
+	1    9650 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K19
+U 1 1 5E9D2E0F
+P 10350 2800
+F 0 "K19" H 10350 3033 60  0000 C CNN
+F 1 "KEYSW" H 10350 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 10350 2800 60  0001 C CNN
+F 3 "" H 10350 2800 60  0000 C CNN
+	1    10350 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K20
+U 1 1 5E9D324F
+P 11050 2800
+F 0 "K20" H 11050 3033 60  0000 C CNN
+F 1 "KEYSW" H 11050 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 2800 60  0001 C CNN
+F 3 "" H 11050 2800 60  0000 C CNN
+	1    11050 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 11350 2800
+$Comp
+L keyboard_parts:KEYSW K21
+U 1 1 5E9D6417
+P 11750 2800
+F 0 "K21" H 11750 3033 60  0000 C CNN
+F 1 "KEYSW" H 11750 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11750 2800 60  0001 C CNN
+F 3 "" H 11750 2800 60  0000 C CNN
+	1    11750 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 12050 2800
+$Comp
+L keyboard_parts:KEYSW K22
+U 1 1 5E9D6A20
+P 12450 2800
+F 0 "K22" H 12450 3033 60  0000 C CNN
+F 1 "KEYSW" H 12450 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 2800 60  0001 C CNN
+F 3 "" H 12450 2800 60  0000 C CNN
+	1    12450 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 12750 2800
+$Comp
+L keyboard_parts:KEYSW K23
+U 1 1 5E9D6FA3
+P 13150 2800
+F 0 "K23" H 13150 3033 60  0000 C CNN
+F 1 "KEYSW" H 13150 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 2800 60  0001 C CNN
+F 3 "" H 13150 2800 60  0000 C CNN
+	1    13150 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 13450 2800
+$Comp
+L keyboard_parts:KEYSW K24
+U 1 1 5E9D7649
+P 13850 2800
+F 0 "K24" H 13850 3033 60  0000 C CNN
+F 1 "KEYSW" H 13850 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13850 2800 60  0001 C CNN
+F 3 "" H 13850 2800 60  0000 C CNN
+	1    13850 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 14150 2800
+$Comp
+L keyboard_parts:KEYSW K25
+U 1 1 5E9D7B6F
+P 14550 2800
+F 0 "K25" H 14550 3033 60  0000 C CNN
+F 1 "KEYSW" H 14550 2700 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 2800 60  0001 C CNN
+F 3 "" H 14550 2800 60  0000 C CNN
+	1    14550 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 14850 2800
+$Comp
+L Device:D D16
+U 1 1 5E9D8140
+P 7950 2950
+F 0 "D16" V 7996 2871 50  0000 R CNN
+F 1 "IN4148" V 7905 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 2950 50  0001 C CNN
+F 3 "~" H 7950 2950 50  0001 C CNN
+	1    7950 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7950 3100
+$Comp
+L Device:D D17
+U 1 1 5E9D87BC
+P 8650 2950
+F 0 "D17" V 8696 2871 50  0000 R CNN
+F 1 "IN4148" V 8605 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8650 2950 50  0001 C CNN
+F 3 "~" H 8650 2950 50  0001 C CNN
+	1    8650 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8650 3100
+$Comp
+L Device:D D18
+U 1 1 5E9D8DE9
+P 9350 2950
+F 0 "D18" V 9396 2871 50  0000 R CNN
+F 1 "IN4148" V 9305 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 2950 50  0001 C CNN
+F 3 "~" H 9350 2950 50  0001 C CNN
+	1    9350 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9350 3100
+$Comp
+L Device:D D19
+U 1 1 5E9D9EF9
+P 10050 2950
+F 0 "D19" V 10096 2871 50  0000 R CNN
+F 1 "IN4148" V 10005 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10050 2950 50  0001 C CNN
+F 3 "~" H 10050 2950 50  0001 C CNN
+	1    10050 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10050 3100
+$Comp
+L Device:D D20
+U 1 1 5E9DA5D2
+P 10750 2950
+F 0 "D20" V 10796 2871 50  0000 R CNN
+F 1 "IN4148" V 10705 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10750 2950 50  0001 C CNN
+F 3 "~" H 10750 2950 50  0001 C CNN
+	1    10750 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10750 3100
+Wire Wire Line
+	10750 3100 11450 3100
+$Comp
+L Device:D D21
+U 1 1 5E9DACC5
+P 11450 2950
+F 0 "D21" V 11496 2871 50  0000 R CNN
+F 1 "IN4148" V 11405 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11450 2950 50  0001 C CNN
+F 3 "~" H 11450 2950 50  0001 C CNN
+	1    11450 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11450 3100
+Wire Wire Line
+	11450 3100 12150 3100
+$Comp
+L Device:D D22
+U 1 1 5E9DB25B
+P 12150 2950
+F 0 "D22" V 12196 2871 50  0000 R CNN
+F 1 "IN4148" V 12105 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12150 2950 50  0001 C CNN
+F 3 "~" H 12150 2950 50  0001 C CNN
+	1    12150 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12150 3100
+Wire Wire Line
+	12150 3100 12850 3100
+$Comp
+L Device:D D23
+U 1 1 5E9DB95A
+P 12850 2950
+F 0 "D23" V 12896 2871 50  0000 R CNN
+F 1 "IN4148" V 12805 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12850 2950 50  0001 C CNN
+F 3 "~" H 12850 2950 50  0001 C CNN
+	1    12850 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12850 3100
+Wire Wire Line
+	12850 3100 13550 3100
+$Comp
+L Device:D D24
+U 1 1 5E9DBF92
+P 13550 2950
+F 0 "D24" V 13596 2871 50  0000 R CNN
+F 1 "IN4148" V 13505 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13550 2950 50  0001 C CNN
+F 3 "~" H 13550 2950 50  0001 C CNN
+	1    13550 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13550 3100
+Wire Wire Line
+	13550 3100 14250 3100
+$Comp
+L Device:D D25
+U 1 1 5E9DC5DA
+P 14250 2950
+F 0 "D25" V 14296 2871 50  0000 R CNN
+F 1 "IN4148" V 14205 2871 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14250 2950 50  0001 C CNN
+F 3 "~" H 14250 2950 50  0001 C CNN
+	1    14250 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14250 3100
+Wire Wire Line
+	14250 3100 15550 3100
+$Comp
+L keyboard_parts:KEYSW K27
+U 1 1 5E9DCBA1
+P 6850 3750
+F 0 "K27" H 6850 3983 60  0000 C CNN
+F 1 "KEYSW" H 6850 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6850 3750 60  0001 C CNN
+F 3 "" H 6850 3750 60  0000 C CNN
+	1    6850 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 3750
+$Comp
+L keyboard_parts:KEYSW K28
+U 1 1 5E9DD411
+P 7550 3750
+F 0 "K28" H 7550 3983 60  0000 C CNN
+F 1 "KEYSW" H 7550 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 3750 60  0001 C CNN
+F 3 "" H 7550 3750 60  0000 C CNN
+	1    7550 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 3750
+$Comp
+L keyboard_parts:KEYSW K40
+U 1 1 5E9DDAF7
+P 7550 4700
+F 0 "K40" H 7550 4933 60  0000 C CNN
+F 1 "KEYSW" H 7550 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 4700 60  0001 C CNN
+F 3 "" H 7550 4700 60  0000 C CNN
+	1    7550 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K52
+U 1 1 5E9DE1FC
+P 7550 5750
+F 0 "K52" H 7550 5983 60  0000 C CNN
+F 1 "KEYSW" H 7550 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 5750 60  0001 C CNN
+F 3 "" H 7550 5750 60  0000 C CNN
+	1    7550 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7850 5750
+Wire Wire Line
+	7850 5750 7850 6750
+$Comp
+L keyboard_parts:KEYSW K39
+U 1 1 5E9DF2B6
+P 6850 4700
+F 0 "K39" H 6850 4933 60  0000 C CNN
+F 1 "KEYSW" H 6850 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6850 4700 60  0001 C CNN
+F 3 "" H 6850 4700 60  0000 C CNN
+	1    6850 4700
+	-1   0    0    1   
+$EndComp
+Text Label 4950 3100 2    50   ~ 0
+row2
+Text Label 4950 4050 2    50   ~ 0
+row3
+Text Label 4950 5000 2    50   ~ 0
+row4
+Text Label 4900 6050 2    50   ~ 0
+row5
+$Comp
+L Device:D D29
+U 1 1 5E8244F4
+P 7950 3900
+F 0 "D29" V 7996 3821 50  0000 R CNN
+F 1 "IN4148" V 7905 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 3900 50  0001 C CNN
+F 3 "~" H 7950 3900 50  0001 C CNN
+	1    7950 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7950 4050
+Wire Wire Line
+	7950 4050 7250 4050
+$Comp
+L Device:D D41
+U 1 1 5E824E5A
+P 7950 4850
+F 0 "D41" V 7996 4771 50  0000 R CNN
+F 1 "IN4148" V 7905 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 4850 50  0001 C CNN
+F 3 "~" H 7950 4850 50  0001 C CNN
+	1    7950 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7950 5000
+$Comp
+L Device:D D53
+U 1 1 5E82565E
+P 7950 5900
+F 0 "D53" V 7996 5821 50  0000 R CNN
+F 1 "IN4148" V 7905 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 5900 50  0001 C CNN
+F 3 "~" H 7950 5900 50  0001 C CNN
+	1    7950 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7950 6050
+Wire Wire Line
+	7950 6050 7250 6050
+$Comp
+L Device:D D42
+U 1 1 5E8265E2
+P 8650 4850
+F 0 "D42" V 8696 4771 50  0000 R CNN
+F 1 "IN4148" V 8605 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8650 4850 50  0001 C CNN
+F 3 "~" H 8650 4850 50  0001 C CNN
+	1    8650 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8650 5000
+$Comp
+L Device:D D30
+U 1 1 5E8276EE
+P 8650 3900
+F 0 "D30" V 8696 3821 50  0000 R CNN
+F 1 "IN4148" V 8605 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8650 3900 50  0001 C CNN
+F 3 "~" H 8650 3900 50  0001 C CNN
+	1    8650 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8650 4050
+Wire Wire Line
+	8650 4050 7950 4050
+$Comp
+L Device:D D31
+U 1 1 5E82B6E7
+P 9350 3900
+F 0 "D31" V 9396 3821 50  0000 R CNN
+F 1 "IN4148" V 9305 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 3900 50  0001 C CNN
+F 3 "~" H 9350 3900 50  0001 C CNN
+	1    9350 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9350 4050
+Wire Wire Line
+	9350 4050 8650 4050
+$Comp
+L Device:D D43
+U 1 1 5E82BE91
+P 9350 4850
+F 0 "D43" V 9396 4771 50  0000 R CNN
+F 1 "IN4148" V 9305 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 4850 50  0001 C CNN
+F 3 "~" H 9350 4850 50  0001 C CNN
+	1    9350 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9350 5000
+$Comp
+L Device:D D54
+U 1 1 5E82C6C8
+P 9350 5900
+F 0 "D54" V 9396 5821 50  0000 R CNN
+F 1 "IN4148" V 9305 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 5900 50  0001 C CNN
+F 3 "~" H 9350 5900 50  0001 C CNN
+	1    9350 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9350 6050
+$Comp
+L Device:D D32
+U 1 1 5E82CEB0
+P 10750 3900
+F 0 "D32" V 10796 3821 50  0000 R CNN
+F 1 "IN4148" V 10705 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10750 3900 50  0001 C CNN
+F 3 "~" H 10750 3900 50  0001 C CNN
+	1    10750 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10750 4050
+Wire Wire Line
+	10750 4050 9350 4050
+$Comp
+L Device:D D45
+U 1 1 5E82D671
+P 10750 4850
+F 0 "D45" V 10796 4771 50  0000 R CNN
+F 1 "IN4148" V 10705 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10750 4850 50  0001 C CNN
+F 3 "~" H 10750 4850 50  0001 C CNN
+	1    10750 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5E82DE36
+P 10050 4850
+F 0 "D44" V 10096 4771 50  0000 R CNN
+F 1 "IN4148" V 10005 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10050 4850 50  0001 C CNN
+F 3 "~" H 10050 4850 50  0001 C CNN
+	1    10050 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10050 5000
+$Comp
+L Device:D D55
+U 1 1 5E82F161
+P 10050 5900
+F 0 "D55" V 10096 5821 50  0000 R CNN
+F 1 "IN4148" V 10005 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10050 5900 50  0001 C CNN
+F 3 "~" H 10050 5900 50  0001 C CNN
+	1    10050 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10050 6050
+Wire Wire Line
+	10050 6050 9350 6050
+$Comp
+L Device:D D56
+U 1 1 5E82F8DA
+P 10750 5900
+F 0 "D56" V 10796 5821 50  0000 R CNN
+F 1 "IN4148" V 10705 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10750 5900 50  0001 C CNN
+F 3 "~" H 10750 5900 50  0001 C CNN
+	1    10750 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10750 6050
+Wire Wire Line
+	10750 6050 10050 6050
+$Comp
+L Device:D D57
+U 1 1 5E830955
+P 12150 5900
+F 0 "D57" V 12196 5821 50  0000 R CNN
+F 1 "IN4148" V 12105 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12150 5900 50  0001 C CNN
+F 3 "~" H 12150 5900 50  0001 C CNN
+	1    12150 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12150 6050
+$Comp
+L Device:D D58
+U 1 1 5E831284
+P 12850 5900
+F 0 "D58" V 12896 5821 50  0000 R CNN
+F 1 "IN4148" V 12805 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12850 5900 50  0001 C CNN
+F 3 "~" H 12850 5900 50  0001 C CNN
+	1    12850 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12850 6050
+$Comp
+L Device:D D59
+U 1 1 5E8383E7
+P 14250 5900
+F 0 "D59" V 14296 5821 50  0000 R CNN
+F 1 "IN4148" V 14205 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14250 5900 50  0001 C CNN
+F 3 "~" H 14250 5900 50  0001 C CNN
+	1    14250 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14250 6050
+$Comp
+L Device:D D50
+U 1 1 5E838B25
+P 14250 4850
+F 0 "D50" V 14296 4771 50  0000 R CNN
+F 1 "IN4148" V 14205 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14250 4850 50  0001 C CNN
+F 3 "~" H 14250 4850 50  0001 C CNN
+	1    14250 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14250 5000
+$Comp
+L Device:D D37
+U 1 1 5E839354
+P 14250 3900
+F 0 "D37" V 14296 3821 50  0000 R CNN
+F 1 "IN4148" V 14205 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14250 3900 50  0001 C CNN
+F 3 "~" H 14250 3900 50  0001 C CNN
+	1    14250 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 14250 4050
+$Comp
+L Device:D D36
+U 1 1 5E839B2A
+P 13550 3900
+F 0 "D36" V 13596 3821 50  0000 R CNN
+F 1 "IN4148" V 13505 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13550 3900 50  0001 C CNN
+F 3 "~" H 13550 3900 50  0001 C CNN
+	1    13550 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13550 4050
+$Comp
+L Device:D D35
+U 1 1 5E83A37E
+P 12850 3900
+F 0 "D35" V 12896 3821 50  0000 R CNN
+F 1 "IN4148" V 12805 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12850 3900 50  0001 C CNN
+F 3 "~" H 12850 3900 50  0001 C CNN
+	1    12850 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12850 4050
+$Comp
+L Device:D D34
+U 1 1 5E83ACAF
+P 12150 3900
+F 0 "D34" V 12196 3821 50  0000 R CNN
+F 1 "IN4148" V 12105 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12150 3900 50  0001 C CNN
+F 3 "~" H 12150 3900 50  0001 C CNN
+	1    12150 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12150 4050
+$Comp
+L Device:D D33
+U 1 1 5E83E3EA
+P 11450 3900
+F 0 "D33" V 11496 3821 50  0000 R CNN
+F 1 "IN4148" V 11405 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11450 3900 50  0001 C CNN
+F 3 "~" H 11450 3900 50  0001 C CNN
+	1    11450 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11450 4050
+$Comp
+L Device:D D46
+U 1 1 5E83EB3D
+P 11450 4850
+F 0 "D46" V 11496 4771 50  0000 R CNN
+F 1 "IN4148" V 11405 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11450 4850 50  0001 C CNN
+F 3 "~" H 11450 4850 50  0001 C CNN
+	1    11450 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11450 5000
+Connection ~ 10750 5000
+$Comp
+L Device:D D47
+U 1 1 5E857924
+P 12150 4850
+F 0 "D47" V 12196 4771 50  0000 R CNN
+F 1 "IN4148" V 12105 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12150 4850 50  0001 C CNN
+F 3 "~" H 12150 4850 50  0001 C CNN
+	1    12150 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12150 5000
+$Comp
+L Device:D D48
+U 1 1 5E8581C3
+P 12850 4850
+F 0 "D48" V 12896 4771 50  0000 R CNN
+F 1 "IN4148" V 12805 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 12850 4850 50  0001 C CNN
+F 3 "~" H 12850 4850 50  0001 C CNN
+	1    12850 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12850 5000
+$Comp
+L Device:D D49
+U 1 1 5E858A09
+P 13550 4850
+F 0 "D49" V 13596 4771 50  0000 R CNN
+F 1 "IN4148" V 13505 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 13550 4850 50  0001 C CNN
+F 3 "~" H 13550 4850 50  0001 C CNN
+	1    13550 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13550 5000
+$Comp
+L keyboard_parts:KEYSW K37
+U 1 1 5E859264
+P 14550 3750
+F 0 "K37" H 14550 3983 60  0000 C CNN
+F 1 "KEYSW" H 14550 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 3750 60  0001 C CNN
+F 3 "" H 14550 3750 60  0000 C CNN
+	1    14550 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K50
+U 1 1 5E859ABB
+P 14550 4700
+F 0 "K50" H 14550 4933 60  0000 C CNN
+F 1 "KEYSW" H 14550 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 4700 60  0001 C CNN
+F 3 "" H 14550 4700 60  0000 C CNN
+	1    14550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K59
+U 1 1 5E85A331
+P 14550 5750
+F 0 "K59" H 14550 5983 60  0000 C CNN
+F 1 "KEYSW" H 14550 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 5750 60  0001 C CNN
+F 3 "" H 14550 5750 60  0000 C CNN
+	1    14550 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K49
+U 1 1 5E85B475
+P 13850 4700
+F 0 "K49" H 13850 4933 60  0000 C CNN
+F 1 "KEYSW" H 13850 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13850 4700 60  0001 C CNN
+F 3 "" H 13850 4700 60  0000 C CNN
+	1    13850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K36
+U 1 1 5E85BD52
+P 13850 3750
+F 0 "K36" H 13850 3983 60  0000 C CNN
+F 1 "KEYSW" H 13850 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13850 3750 60  0001 C CNN
+F 3 "" H 13850 3750 60  0000 C CNN
+	1    13850 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K35
+U 1 1 5E85C5C2
+P 13150 3750
+F 0 "K35" H 13150 3983 60  0000 C CNN
+F 1 "KEYSW" H 13150 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 3750 60  0001 C CNN
+F 3 "" H 13150 3750 60  0000 C CNN
+	1    13150 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K34
+U 1 1 5E85D0A9
+P 12450 3750
+F 0 "K34" H 12450 3983 60  0000 C CNN
+F 1 "KEYSW" H 12450 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 3750 60  0001 C CNN
+F 3 "" H 12450 3750 60  0000 C CNN
+	1    12450 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K33
+U 1 1 5E85DA92
+P 11750 3750
+F 0 "K33" H 11750 3983 60  0000 C CNN
+F 1 "KEYSW" H 11750 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11750 3750 60  0001 C CNN
+F 3 "" H 11750 3750 60  0000 C CNN
+	1    11750 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K31
+U 1 1 5E85EDC2
+P 9650 3750
+F 0 "K31" H 9650 3983 60  0000 C CNN
+F 1 "KEYSW" H 9650 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 3750 60  0001 C CNN
+F 3 "" H 9650 3750 60  0000 C CNN
+	1    9650 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 3750
+$Comp
+L keyboard_parts:KEYSW K30
+U 1 1 5E85F709
+P 8950 3750
+F 0 "K30" H 8950 3983 60  0000 C CNN
+F 1 "KEYSW" H 8950 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8950 3750 60  0001 C CNN
+F 3 "" H 8950 3750 60  0000 C CNN
+	1    8950 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9250 3750
+$Comp
+L keyboard_parts:KEYSW K29
+U 1 1 5E860105
+P 8250 3750
+F 0 "K29" H 8250 3983 60  0000 C CNN
+F 1 "KEYSW" H 8250 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 3750 60  0001 C CNN
+F 3 "" H 8250 3750 60  0000 C CNN
+	1    8250 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 3750
+$Comp
+L keyboard_parts:KEYSW K41
+U 1 1 5E860BCA
+P 8250 4700
+F 0 "K41" H 8250 4933 60  0000 C CNN
+F 1 "KEYSW" H 8250 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 4700 60  0001 C CNN
+F 3 "" H 8250 4700 60  0000 C CNN
+	1    8250 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K53
+U 1 1 5E8615E6
+P 8250 5750
+F 0 "K53" H 8250 5983 60  0000 C CNN
+F 1 "KEYSW" H 8250 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 5750 60  0001 C CNN
+F 3 "" H 8250 5750 60  0000 C CNN
+	1    8250 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 5750
+Wire Wire Line
+	8550 5750 8550 6750
+$Comp
+L keyboard_parts:KEYSW K42
+U 1 1 5E861FB3
+P 8950 4700
+F 0 "K42" H 8950 4933 60  0000 C CNN
+F 1 "KEYSW" H 8950 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8950 4700 60  0001 C CNN
+F 3 "" H 8950 4700 60  0000 C CNN
+	1    8950 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K43
+U 1 1 5E862C1A
+P 9650 4700
+F 0 "K43" H 9650 4933 60  0000 C CNN
+F 1 "KEYSW" H 9650 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 4700 60  0001 C CNN
+F 3 "" H 9650 4700 60  0000 C CNN
+	1    9650 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K44
+U 1 1 5E86366B
+P 10350 4700
+F 0 "K44" H 10350 4933 60  0000 C CNN
+F 1 "KEYSW" H 10350 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 10350 4700 60  0001 C CNN
+F 3 "" H 10350 4700 60  0000 C CNN
+	1    10350 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K45
+U 1 1 5E864329
+P 11050 4700
+F 0 "K45" H 11050 4933 60  0000 C CNN
+F 1 "KEYSW" H 11050 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 4700 60  0001 C CNN
+F 3 "" H 11050 4700 60  0000 C CNN
+	1    11050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K46
+U 1 1 5E864E85
+P 11750 4700
+F 0 "K46" H 11750 4933 60  0000 C CNN
+F 1 "KEYSW" H 11750 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11750 4700 60  0001 C CNN
+F 3 "" H 11750 4700 60  0000 C CNN
+	1    11750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K47
+U 1 1 5E865825
+P 12450 4700
+F 0 "K47" H 12450 4933 60  0000 C CNN
+F 1 "KEYSW" H 12450 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 4700 60  0001 C CNN
+F 3 "" H 12450 4700 60  0000 C CNN
+	1    12450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K48
+U 1 1 5E86621B
+P 13150 4700
+F 0 "K48" H 13150 4933 60  0000 C CNN
+F 1 "KEYSW" H 13150 4600 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 4700 60  0001 C CNN
+F 3 "" H 13150 4700 60  0000 C CNN
+	1    13150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K55
+U 1 1 5E866C44
+P 10350 5750
+F 0 "K55" H 10350 5983 60  0000 C CNN
+F 1 "KEYSW" H 10350 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 10350 5750 60  0001 C CNN
+F 3 "" H 10350 5750 60  0000 C CNN
+	1    10350 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 10650 5750
+Wire Wire Line
+	10650 5750 10650 6750
+$Comp
+L keyboard_parts:KEYSW K56
+U 1 1 5E8677AE
+P 11050 5750
+F 0 "K56" H 11050 5983 60  0000 C CNN
+F 1 "KEYSW" H 11050 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 5750 60  0001 C CNN
+F 3 "" H 11050 5750 60  0000 C CNN
+	1    11050 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K57
+U 1 1 5E868D81
+P 12450 5750
+F 0 "K57" H 12450 5983 60  0000 C CNN
+F 1 "KEYSW" H 12450 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 5750 60  0001 C CNN
+F 3 "" H 12450 5750 60  0000 C CNN
+	1    12450 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K58
+U 1 1 5E869777
+P 13150 5750
+F 0 "K58" H 13150 5983 60  0000 C CNN
+F 1 "KEYSW" H 13150 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 5750 60  0001 C CNN
+F 3 "" H 13150 5750 60  0000 C CNN
+	1    13150 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K54
+U 1 1 5E86A1AF
+P 9650 5750
+F 0 "K54" H 9650 5983 60  0000 C CNN
+F 1 "KEYSW" H 9650 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 5750 60  0001 C CNN
+F 3 "" H 9650 5750 60  0000 C CNN
+	1    9650 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 5750
+Wire Wire Line
+	9950 5750 9950 6750
+Wire Wire Line
+	7950 6050 9350 6050
+NoConn ~ 7850 5450
+Wire Wire Line
+	10650 1150 10650 2800
+Connection ~ 10650 2800
+Wire Wire Line
+	10050 3100 10750 3100
+Wire Wire Line
+	10650 2800 10650 4700
+Connection ~ 10650 4700
+Wire Wire Line
+	10650 4700 10650 5750
+Wire Wire Line
+	10050 5000 10750 5000
+Wire Wire Line
+	11350 2800 11350 3750
+$Comp
+L keyboard_parts:KEYSW K32
+U 1 1 5E85E314
+P 11050 3750
+F 0 "K32" H 11050 3983 60  0000 C CNN
+F 1 "KEYSW" H 11050 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 3750 60  0001 C CNN
+F 3 "" H 11050 3750 60  0000 C CNN
+	1    11050 3750
+	-1   0    0    1   
+$EndComp
+Connection ~ 11350 3750
+Wire Wire Line
+	10750 4050 11450 4050
+Wire Wire Line
+	12050 2800 12050 3750
+Connection ~ 12050 3750
+Wire Wire Line
+	11450 4050 12150 4050
+Wire Wire Line
+	12750 2800 12750 3750
+Connection ~ 12750 3750
+Wire Wire Line
+	12150 4050 12850 4050
+Wire Wire Line
+	13450 2800 13450 3750
+Connection ~ 13450 3750
+Wire Wire Line
+	12850 4050 13550 4050
+Wire Wire Line
+	14150 2800 14150 3750
+Connection ~ 14150 3750
+Wire Wire Line
+	13550 4050 14250 4050
+Wire Wire Line
+	14850 2800 14850 3750
+Connection ~ 14850 3750
+Wire Wire Line
+	14250 4050 15500 4050
+Wire Wire Line
+	7150 3750 7150 4700
+Connection ~ 7150 4700
+Wire Wire Line
+	7150 4700 7150 6750
+Wire Wire Line
+	6550 5000 7250 5000
+Wire Wire Line
+	7850 3750 7850 4700
+Connection ~ 7850 4700
+Wire Wire Line
+	7850 4700 7850 5750
+Wire Wire Line
+	7250 5000 7950 5000
+Wire Wire Line
+	8550 3750 8550 4700
+Connection ~ 8550 4700
+Wire Wire Line
+	8550 4700 8550 5750
+Wire Wire Line
+	7950 5000 8650 5000
+Wire Wire Line
+	9250 3750 9250 4700
+Connection ~ 9250 4700
+Wire Wire Line
+	9250 4700 9250 6750
+Wire Wire Line
+	8650 5000 9350 5000
+Wire Wire Line
+	9950 3750 9950 4700
+Connection ~ 9950 4700
+Wire Wire Line
+	9950 4700 9950 5750
+Wire Wire Line
+	9350 5000 10050 5000
+Wire Wire Line
+	6450 1850 6450 2800
+Wire Wire Line
+	7150 1850 7150 2800
+Connection ~ 7150 2800
+Wire Wire Line
+	7150 2800 7150 3750
+Wire Wire Line
+	6550 3100 7250 3100
+Wire Wire Line
+	7850 1850 7850 2800
+Connection ~ 7850 2800
+Wire Wire Line
+	7850 2800 7850 3750
+Wire Wire Line
+	7250 3100 7950 3100
+Wire Wire Line
+	8550 1850 8550 2800
+Connection ~ 8550 2800
+Wire Wire Line
+	8550 2800 8550 3750
+Wire Wire Line
+	7950 3100 8650 3100
+Wire Wire Line
+	9250 1850 9250 2800
+Connection ~ 9250 2800
+Wire Wire Line
+	9250 2800 9250 3750
+Wire Wire Line
+	8650 3100 9350 3100
+Wire Wire Line
+	9950 1850 9950 2800
+Connection ~ 9950 2800
+Wire Wire Line
+	9950 2800 9950 3750
+Wire Wire Line
+	9350 3100 10050 3100
+Wire Wire Line
+	11350 1150 11350 1850
+Connection ~ 11350 1850
+Wire Wire Line
+	11350 1850 11350 2800
+Wire Wire Line
+	10750 2150 11450 2150
+Wire Wire Line
+	12050 1150 12050 1850
+Connection ~ 12050 1850
+Wire Wire Line
+	12050 1850 12050 2800
+Wire Wire Line
+	11450 2150 12150 2150
+Wire Wire Line
+	12750 1150 12750 1850
+Connection ~ 12750 1850
+Wire Wire Line
+	12750 1850 12750 2800
+Wire Wire Line
+	12150 2150 12850 2150
+Wire Wire Line
+	13450 1150 13450 1850
+Connection ~ 13450 1850
+Wire Wire Line
+	13450 1850 13450 2800
+Wire Wire Line
+	12850 2150 13550 2150
+Wire Wire Line
+	14150 1150 14150 1850
+Connection ~ 14150 1850
+Wire Wire Line
+	14150 1850 14150 2800
+Wire Wire Line
+	13550 2150 14250 2150
+Wire Wire Line
+	14850 1150 14850 1850
+Connection ~ 14850 1850
+Wire Wire Line
+	14850 1850 14850 2800
+Wire Wire Line
+	14250 2150 15600 2150
+$Comp
+L conn:CONN_5 P3
+U 1 1 5E8D5B52
+P 3050 3200
+F 0 "P3" H 3178 3257 50  0000 L CNN
+F 1 "CONN_5" H 3178 3166 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 3200 50  0001 C CNN
+F 3 "" H 3050 3200 50  0001 C CNN
+	1    3050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_5 P1
+U 1 1 5E92188A
+P 3250 2350
+F 0 "P1" H 3378 2407 50  0000 L CNN
+F 1 "CONN_5" H 3378 2316 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3250 2350 50  0001 C CNN
+F 3 "" H 3250 2350 50  0001 C CNN
+	1    3250 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4700 6450 5750
+Text Label 4950 2150 2    50   ~ 0
+row1
+Text Label 2850 2150 2    50   ~ 0
+row1
+Text Label 2850 2250 2    50   ~ 0
+row2
+Text Label 2850 2350 2    50   ~ 0
+row3
+Text Label 2850 2450 2    50   ~ 0
+row4
+Text Label 2850 2550 2    50   ~ 0
+row5
+Text Label 1450 3050 2    50   ~ 0
+col01
+Text Label 1450 3150 2    50   ~ 0
+col02
+Text Label 1450 3250 2    50   ~ 0
+col03
+Text Label 1450 3350 2    50   ~ 0
+col04
+Text Label 2650 3000 2    50   ~ 0
+col05
+Text Label 2650 3100 2    50   ~ 0
+col06
+Text Label 2650 3200 2    50   ~ 0
+col07
+Text Label 2650 3300 2    50   ~ 0
+col08
+Text Label 2650 3400 2    50   ~ 0
+col09
+Text Label 3950 3050 2    50   ~ 0
+col10
+Text Label 3950 3150 2    50   ~ 0
+col11
+Text Label 3950 3250 2    50   ~ 0
+col12
+Text Label 3950 3350 2    50   ~ 0
+col13
+Connection ~ 5850 2150
+Wire Wire Line
+	5850 2150 6550 2150
+Wire Wire Line
+	4950 2150 5850 2150
+Connection ~ 5850 3100
+Wire Wire Line
+	5850 3100 6550 3100
+Wire Wire Line
+	4950 3100 5850 3100
+Connection ~ 6450 2800
+Wire Wire Line
+	6550 4050 5850 4050
+$Comp
+L Device:D D26
+U 1 1 5E9A2C7C
+P 5850 3900
+F 0 "D26" V 5896 3821 50  0000 R CNN
+F 1 "IN4148" V 5805 3821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 3900 50  0001 C CNN
+F 3 "~" H 5850 3900 50  0001 C CNN
+	1    5850 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K26
+U 1 1 5E9CD5D9
+P 6150 3750
+F 0 "K26" H 6150 3983 60  0000 C CNN
+F 1 "KEYSW" H 6150 3650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 3750 60  0001 C CNN
+F 3 "" H 6150 3750 60  0000 C CNN
+	1    6150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3750 6450 4700
+Wire Wire Line
+	6450 2800 6450 3750
+Connection ~ 5850 4050
+Connection ~ 6450 3750
+Wire Wire Line
+	4950 4050 5850 4050
+Connection ~ 5850 5000
+Wire Wire Line
+	5850 5000 6550 5000
+Connection ~ 6450 4700
+Wire Wire Line
+	4950 5000 5850 5000
+Wire Wire Line
+	6450 5750 6450 6750
+$Comp
+L keyboard_parts:KEYSW K51
+U 1 1 5E9CDE49
+P 6150 5750
+F 0 "K51" H 6150 5983 60  0000 C CNN
+F 1 "KEYSW" H 6150 5650 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 5750 60  0001 C CNN
+F 3 "" H 6150 5750 60  0000 C CNN
+	1    6150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 5E9A36F2
+P 5850 5900
+F 0 "D51" V 5896 5821 50  0000 R CNN
+F 1 "IN4148" V 5805 5821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 5900 50  0001 C CNN
+F 3 "~" H 5850 5900 50  0001 C CNN
+	1    5850 5900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5850 6050
+Wire Wire Line
+	5850 6050 7250 6050
+Connection ~ 6450 5750
+Wire Wire Line
+	4900 6050 5850 6050
+Wire Wire Line
+	11350 3750 11350 4700
+Connection ~ 11350 4700
+Wire Wire Line
+	10750 5000 11450 5000
+Wire Wire Line
+	12050 3750 12050 4700
+Connection ~ 12050 4700
+Wire Wire Line
+	12050 4700 12050 6750
+Wire Wire Line
+	11450 5000 12150 5000
+Wire Wire Line
+	12750 3750 12750 4700
+Connection ~ 12750 4700
+Wire Wire Line
+	12150 5000 12850 5000
+Wire Wire Line
+	13450 3750 13450 4700
+Connection ~ 13450 4700
+Wire Wire Line
+	12850 5000 13550 5000
+Wire Wire Line
+	14150 3750 14150 4700
+Connection ~ 14150 4700
+Wire Wire Line
+	14150 4700 14150 6750
+Wire Wire Line
+	13550 5000 14250 5000
+Wire Wire Line
+	14850 3750 14850 4700
+Connection ~ 14850 4700
+Wire Wire Line
+	14250 5000 15500 5000
+Wire Wire Line
+	14850 4700 14850 5750
+Connection ~ 14850 5750
+Wire Wire Line
+	14850 5750 14850 6750
+Wire Wire Line
+	14250 6050 15500 6050
+Wire Wire Line
+	13450 4700 13450 5750
+Connection ~ 13450 5750
+Wire Wire Line
+	13450 5750 13450 6750
+Wire Wire Line
+	12850 6050 14250 6050
+Wire Wire Line
+	12750 4700 12750 5750
+Connection ~ 12750 5750
+Wire Wire Line
+	12750 5750 12750 6750
+Wire Wire Line
+	12150 6050 12850 6050
+Wire Wire Line
+	11350 4700 11350 5750
+Connection ~ 11350 5750
+Wire Wire Line
+	11350 5750 11350 6750
+Wire Wire Line
+	10750 6050 12150 6050
+$Comp
+L power:+5V #PWR0102
+U 1 1 5EA24F04
+P 3550 7400
+F 0 "#PWR0102" H 3550 7250 50  0001 C CNN
+F 1 "+5V" H 3565 7573 50  0000 C CNN
+F 2 "" H 3550 7400 50  0001 C CNN
+F 3 "" H 3550 7400 50  0001 C CNN
+	1    3550 7400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 7400
+$Comp
+L conn:CONN_4 P2
+U 1 1 5EA39ACE
+P 1800 3200
+F 0 "P2" H 1928 3241 50  0000 L CNN
+F 1 "CONN_4" H 1928 3150 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1800 3200 50  0001 C CNN
+F 3 "" H 1800 3200 50  0001 C CNN
+	1    1800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_4 P4
+U 1 1 5EA8601A
+P 4300 3200
+F 0 "P4" H 4428 3241 50  0000 L CNN
+F 1 "CONN_4" H 4428 3150 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4300 3200 50  0001 C CNN
+F 3 "" H 4300 3200 50  0001 C CNN
+	1    4300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x10_MountingPin J1
+U 1 1 5EAC293F
+P 1950 5750
+F 0 "J1" H 1872 6367 50  0000 C CNN
+F 1 "Conn_01x10_MountingPin" H 1872 6276 50  0000 C CNN
+F 2 "Connector_FFC-FPC:TE_1-84952-0_1x10-1MP_P1.0mm_Horizontal" H 1950 5750 50  0001 C CNN
+F 3 "~" H 1950 5750 50  0001 C CNN
+	1    1950 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5350 3700 5350
+Wire Wire Line
+	2150 5850 3700 5850
+Wire Wire Line
+	3700 5750 2150 5750
+Wire Wire Line
+	2150 5650 3700 5650
+Wire Wire Line
+	3700 5550 2150 5550
+Wire Wire Line
+	2150 5450 3700 5450
+NoConn ~ 1950 6450
+Wire Wire Line
+	2150 5950 3700 5950
+Wire Wire Line
+	2150 6050 3700 6050
+$Comp
+L conn:CONN_10 P6
+U 1 1 5EA11EA8
+P 4050 5800
+F 0 "P6" H 4178 5848 60  0000 L CNN
+F 1 "CONN_10" H 4178 5742 60  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 4050 5800 50  0001 C CNN
+F 3 "" H 4050 5800 50  0001 C CNN
+	1    4050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6150 3700 6150
+Wire Wire Line
+	3700 6250 2150 6250
+$Comp
+L Connector:USB_C_Plug_USB2.0 P7
+U 1 1 5E9D39A2
+P 2950 8000
+F 0 "P7" H 3057 8867 50  0000 C CNN
+F 1 "CONN_8" H 3057 8776 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 3100 8000 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3100 8000 50  0001 C CNN
+	1    2950 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_4 P5
+U 1 1 5EAD102A
+P 4400 8050
+F 0 "P5" H 4528 8091 50  0000 L CNN
+F 1 "CONN_4" H 4528 8000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4400 8050 50  0001 C CNN
+F 3 "" H 4400 8050 50  0001 C CNN
+	1    4400 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 8100 4050 8100
+Wire Wire Line
+	4050 7400 4050 7900
+Wire Wire Line
+	3550 7900 3550 8000
+Wire Wire Line
+	3550 8000 4050 8000
+Wire Wire Line
+	4050 8200 4050 8900
+Wire Wire Line
+	4050 8900 2950 8900
+Wire Wire Line
+	4050 7400 3550 7400
+NoConn ~ 3550 7600
+NoConn ~ 3550 7700
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5EA25E89
+P 3550 7400
+F 0 "#FLG0103" H 3550 7475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3550 7573 50  0000 C CNN
+F 2 "" H 3550 7400 50  0001 C CNN
+F 3 "~" H 3550 7400 50  0001 C CNN
+	1    3550 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EB2A8AA
+P 2950 8900
+F 0 "#PWR0101" H 2950 8650 50  0001 C CNN
+F 1 "GND" H 2955 8727 50  0000 C CNN
+F 2 "" H 2950 8900 50  0001 C CNN
+F 3 "" H 2950 8900 50  0001 C CNN
+	1    2950 8900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 8900
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EB2B625
+P 2950 8900
+F 0 "#FLG0101" H 2950 8975 50  0001 C CNN
+F 1 "PWR_FLAG" V 2950 9027 50  0000 L CNN
+F 2 "" H 2950 8900 50  0001 C CNN
+F 3 "~" H 2950 8900 50  0001 C CNN
+	1    2950 8900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 8900 2650 8900
+$EndSCHEMATC
