@@ -14,14 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	7150 1150 7150 1850
-Wire Wire Line
-	8550 1150 8550 1850
-Wire Wire Line
-	9250 1150 9250 1850
-Wire Wire Line
-	9950 1150 9950 1850
 Text Label 14850 1150 1    50   ~ 0
 col13
 $Comp
@@ -30,10 +22,10 @@ U 1 1 5E82B011
 P 6150 1850
 F 0 "K1" H 6150 2083 60  0000 C CNN
 F 1 "KEYSW" H 6150 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6150 1850 60  0001 C CNN
 F 3 "" H 6150 1850 60  0000 C CNN
 	1    6150 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D1
@@ -46,66 +38,60 @@ F 3 "~" H 5850 2000 50  0001 C CNN
 	1    5850 2000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6450 1150 6450 1850
 $Comp
 L keyboard_parts:KEYSW K2
 U 1 1 5E833A18
 P 6850 1850
 F 0 "K2" H 6850 2083 60  0000 C CNN
 F 1 "KEYSW" H 6850 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6850 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6850 1850 60  0001 C CNN
 F 3 "" H 6850 1850 60  0000 C CNN
 	1    6850 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 7150 1850
 $Comp
 L keyboard_parts:KEYSW K4
 U 1 1 5E83436D
 P 8250 1850
 F 0 "K4" H 8250 2083 60  0000 C CNN
 F 1 "KEYSW" H 8250 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8250 1850 60  0001 C CNN
 F 3 "" H 8250 1850 60  0000 C CNN
 	1    8250 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 8550 1850
 $Comp
 L keyboard_parts:KEYSW K5
 U 1 1 5E8347E7
 P 8950 1850
 F 0 "K5" H 8950 2083 60  0000 C CNN
 F 1 "KEYSW" H 8950 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8950 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8950 1850 60  0001 C CNN
 F 3 "" H 8950 1850 60  0000 C CNN
 	1    8950 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 9250 1850
 $Comp
 L keyboard_parts:KEYSW K6
 U 1 1 5E834C8F
 P 9650 1850
 F 0 "K6" H 9650 2083 60  0000 C CNN
 F 1 "KEYSW" H 9650 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 9650 1850 60  0001 C CNN
 F 3 "" H 9650 1850 60  0000 C CNN
 	1    9650 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 9950 1850
 $Comp
 L keyboard_parts:KEYSW K7
 U 1 1 5E836E4B
 P 11050 1850
 F 0 "K7" H 11050 2083 60  0000 C CNN
 F 1 "KEYSW" H 11050 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11050 1850 60  0001 C CNN
 F 3 "" H 11050 1850 60  0000 C CNN
 	1    11050 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K8
@@ -113,10 +99,10 @@ U 1 1 5E837A4D
 P 11750 1850
 F 0 "K8" H 11750 2083 60  0000 C CNN
 F 1 "KEYSW" H 11750 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11750 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11750 1850 60  0001 C CNN
 F 3 "" H 11750 1850 60  0000 C CNN
 	1    11750 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K9
@@ -124,10 +110,10 @@ U 1 1 5E837DD3
 P 12450 1850
 F 0 "K9" H 12450 2083 60  0000 C CNN
 F 1 "KEYSW" H 12450 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 12450 1850 60  0001 C CNN
 F 3 "" H 12450 1850 60  0000 C CNN
 	1    12450 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K10
@@ -135,10 +121,10 @@ U 1 1 5E8380E2
 P 13150 1850
 F 0 "K10" H 13150 2083 60  0000 C CNN
 F 1 "KEYSW" H 13150 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13150 1850 60  0001 C CNN
 F 3 "" H 13150 1850 60  0000 C CNN
 	1    13150 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K11
@@ -146,10 +132,10 @@ U 1 1 5E838D64
 P 13850 1850
 F 0 "K11" H 13850 2083 60  0000 C CNN
 F 1 "KEYSW" H 13850 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13850 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13850 1850 60  0001 C CNN
 F 3 "" H 13850 1850 60  0000 C CNN
 	1    13850 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K12
@@ -157,10 +143,10 @@ U 1 1 5E8390DD
 P 14550 1850
 F 0 "K12" H 14550 2083 60  0000 C CNN
 F 1 "KEYSW" H 14550 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 14550 1850 60  0001 C CNN
 F 3 "" H 14550 1850 60  0000 C CNN
 	1    14550 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D2
@@ -186,8 +172,6 @@ F 3 "~" H 7950 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 7950 2150
-Wire Wire Line
-	7950 2150 8650 2150
 $Comp
 L Device:D D5
 U 1 1 5E83CAB4
@@ -200,8 +184,6 @@ F 3 "~" H 8650 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 8650 2150
-Wire Wire Line
-	8650 2150 9350 2150
 $Comp
 L Device:D D6
 U 1 1 5E83CE85
@@ -214,8 +196,6 @@ F 3 "~" H 9350 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 9350 2150
-Wire Wire Line
-	9350 2150 10750 2150
 $Comp
 L Device:D D7
 U 1 1 5E83D270
@@ -312,12 +292,7 @@ Text Label 13450 1150 1    50   ~ 0
 col11
 Text Label 14150 1150 1    50   ~ 0
 col12
-Connection ~ 6450 1850
-Wire Wire Line
-	7250 2150 7950 2150
 Connection ~ 7250 2150
-Wire Wire Line
-	6550 2150 7250 2150
 $Comp
 L Device:D D3
 U 1 1 5E83AA06
@@ -329,20 +304,17 @@ F 3 "~" H 7250 2000 50  0001 C CNN
 	1    7250 2000
 	0    -1   -1   0   
 $EndComp
-Connection ~ 7850 1850
 $Comp
 L keyboard_parts:KEYSW K3
 U 1 1 5E833ED1
 P 7550 1850
 F 0 "K3" H 7550 2083 60  0000 C CNN
 F 1 "KEYSW" H 7550 1750 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 1850 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 7550 1850 60  0001 C CNN
 F 3 "" H 7550 1850 60  0000 C CNN
 	1    7550 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7850 1150 7850 1850
 $Comp
 L Device:D D13
 U 1 1 5E9A2914
@@ -371,10 +343,10 @@ U 1 1 5E9CCFF7
 P 6150 2800
 F 0 "K13" H 6150 3033 60  0000 C CNN
 F 1 "KEYSW" H 6150 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6150 2800 60  0001 C CNN
 F 3 "" H 6150 2800 60  0000 C CNN
 	1    6150 2800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K38
@@ -382,7 +354,7 @@ U 1 1 5E9CD932
 P 6150 4700
 F 0 "K38" H 6150 4933 60  0000 C CNN
 F 1 "KEYSW" H 6150 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6150 4700 60  0001 C CNN
 F 3 "" H 6150 4700 60  0000 C CNN
 	1    6150 4700
 	-1   0    0    1   
@@ -393,10 +365,10 @@ U 1 1 5E9CE27B
 P 6850 2800
 F 0 "K14" H 6850 3033 60  0000 C CNN
 F 1 "KEYSW" H 6850 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6850 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6850 2800 60  0001 C CNN
 F 3 "" H 6850 2800 60  0000 C CNN
 	1    6850 2800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D14
@@ -490,10 +462,10 @@ U 1 1 5E9D134B
 P 7550 2800
 F 0 "K15" H 7550 3033 60  0000 C CNN
 F 1 "KEYSW" H 7550 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 7550 2800 60  0001 C CNN
 F 3 "" H 7550 2800 60  0000 C CNN
 	1    7550 2800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K16
@@ -501,10 +473,10 @@ U 1 1 5E9D1BD3
 P 8250 2800
 F 0 "K16" H 8250 3033 60  0000 C CNN
 F 1 "KEYSW" H 8250 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8250 2800 60  0001 C CNN
 F 3 "" H 8250 2800 60  0000 C CNN
 	1    8250 2800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K17
@@ -512,10 +484,10 @@ U 1 1 5E9D21CD
 P 8950 2800
 F 0 "K17" H 8950 3033 60  0000 C CNN
 F 1 "KEYSW" H 8950 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8950 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8950 2800 60  0001 C CNN
 F 3 "" H 8950 2800 60  0000 C CNN
 	1    8950 2800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K18
@@ -523,10 +495,10 @@ U 1 1 5E9D27E1
 P 9650 2800
 F 0 "K18" H 9650 3033 60  0000 C CNN
 F 1 "KEYSW" H 9650 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 9650 2800 60  0001 C CNN
 F 3 "" H 9650 2800 60  0000 C CNN
 	1    9650 2800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K19
@@ -534,10 +506,10 @@ U 1 1 5E9D2E0F
 P 10350 2800
 F 0 "K19" H 10350 3033 60  0000 C CNN
 F 1 "KEYSW" H 10350 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 10350 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 10350 2800 60  0001 C CNN
 F 3 "" H 10350 2800 60  0000 C CNN
 	1    10350 2800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K20
@@ -545,72 +517,66 @@ U 1 1 5E9D324F
 P 11050 2800
 F 0 "K20" H 11050 3033 60  0000 C CNN
 F 1 "KEYSW" H 11050 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11050 2800 60  0001 C CNN
 F 3 "" H 11050 2800 60  0000 C CNN
 	1    11050 2800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 11350 2800
 $Comp
 L keyboard_parts:KEYSW K21
 U 1 1 5E9D6417
 P 11750 2800
 F 0 "K21" H 11750 3033 60  0000 C CNN
 F 1 "KEYSW" H 11750 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11750 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11750 2800 60  0001 C CNN
 F 3 "" H 11750 2800 60  0000 C CNN
 	1    11750 2800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 12050 2800
 $Comp
 L keyboard_parts:KEYSW K22
 U 1 1 5E9D6A20
 P 12450 2800
 F 0 "K22" H 12450 3033 60  0000 C CNN
 F 1 "KEYSW" H 12450 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 12450 2800 60  0001 C CNN
 F 3 "" H 12450 2800 60  0000 C CNN
 	1    12450 2800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 12750 2800
 $Comp
 L keyboard_parts:KEYSW K23
 U 1 1 5E9D6FA3
 P 13150 2800
 F 0 "K23" H 13150 3033 60  0000 C CNN
 F 1 "KEYSW" H 13150 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13150 2800 60  0001 C CNN
 F 3 "" H 13150 2800 60  0000 C CNN
 	1    13150 2800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 13450 2800
 $Comp
 L keyboard_parts:KEYSW K24
 U 1 1 5E9D7649
 P 13850 2800
 F 0 "K24" H 13850 3033 60  0000 C CNN
 F 1 "KEYSW" H 13850 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13850 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13850 2800 60  0001 C CNN
 F 3 "" H 13850 2800 60  0000 C CNN
 	1    13850 2800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 14150 2800
 $Comp
 L keyboard_parts:KEYSW K25
 U 1 1 5E9D7B6F
 P 14550 2800
 F 0 "K25" H 14550 3033 60  0000 C CNN
 F 1 "KEYSW" H 14550 2700 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 2800 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 14550 2800 60  0001 C CNN
 F 3 "" H 14550 2800 60  0000 C CNN
 	1    14550 2800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 14850 2800
 $Comp
 L Device:D D16
 U 1 1 5E9D8140
@@ -671,8 +637,6 @@ F 3 "~" H 10750 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 10750 3100
-Wire Wire Line
-	10750 3100 11450 3100
 $Comp
 L Device:D D21
 U 1 1 5E9DACC5
@@ -685,8 +649,6 @@ F 3 "~" H 11450 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 11450 3100
-Wire Wire Line
-	11450 3100 12150 3100
 $Comp
 L Device:D D22
 U 1 1 5E9DB25B
@@ -699,8 +661,6 @@ F 3 "~" H 12150 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 12150 3100
-Wire Wire Line
-	12150 3100 12850 3100
 $Comp
 L Device:D D23
 U 1 1 5E9DB95A
@@ -713,8 +673,6 @@ F 3 "~" H 12850 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 12850 3100
-Wire Wire Line
-	12850 3100 13550 3100
 $Comp
 L Device:D D24
 U 1 1 5E9DBF92
@@ -727,8 +685,6 @@ F 3 "~" H 13550 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 13550 3100
-Wire Wire Line
-	13550 3100 14250 3100
 $Comp
 L Device:D D25
 U 1 1 5E9DC5DA
@@ -741,15 +697,13 @@ F 3 "~" H 14250 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 14250 3100
-Wire Wire Line
-	14250 3100 15550 3100
 $Comp
 L keyboard_parts:KEYSW K27
 U 1 1 5E9DCBA1
 P 6850 3750
 F 0 "K27" H 6850 3983 60  0000 C CNN
 F 1 "KEYSW" H 6850 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6850 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6850 3750 60  0001 C CNN
 F 3 "" H 6850 3750 60  0000 C CNN
 	1    6850 3750
 	1    0    0    -1  
@@ -761,7 +715,7 @@ U 1 1 5E9DD411
 P 7550 3750
 F 0 "K28" H 7550 3983 60  0000 C CNN
 F 1 "KEYSW" H 7550 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 7550 3750 60  0001 C CNN
 F 3 "" H 7550 3750 60  0000 C CNN
 	1    7550 3750
 	1    0    0    -1  
@@ -773,7 +727,7 @@ U 1 1 5E9DDAF7
 P 7550 4700
 F 0 "K40" H 7550 4933 60  0000 C CNN
 F 1 "KEYSW" H 7550 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 7550 4700 60  0001 C CNN
 F 3 "" H 7550 4700 60  0000 C CNN
 	1    7550 4700
 	-1   0    0    1   
@@ -784,7 +738,7 @@ U 1 1 5E9DE1FC
 P 7550 5750
 F 0 "K52" H 7550 5983 60  0000 C CNN
 F 1 "KEYSW" H 7550 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 7550 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 7550 5750 60  0001 C CNN
 F 3 "" H 7550 5750 60  0000 C CNN
 	1    7550 5750
 	1    0    0    -1  
@@ -798,7 +752,7 @@ U 1 1 5E9DF2B6
 P 6850 4700
 F 0 "K39" H 6850 4933 60  0000 C CNN
 F 1 "KEYSW" H 6850 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6850 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6850 4700 60  0001 C CNN
 F 3 "" H 6850 4700 60  0000 C CNN
 	1    6850 4700
 	-1   0    0    1   
@@ -1143,7 +1097,7 @@ U 1 1 5E859264
 P 14550 3750
 F 0 "K37" H 14550 3983 60  0000 C CNN
 F 1 "KEYSW" H 14550 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 14550 3750 60  0001 C CNN
 F 3 "" H 14550 3750 60  0000 C CNN
 	1    14550 3750
 	-1   0    0    1   
@@ -1154,7 +1108,7 @@ U 1 1 5E859ABB
 P 14550 4700
 F 0 "K50" H 14550 4933 60  0000 C CNN
 F 1 "KEYSW" H 14550 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 14550 4700 60  0001 C CNN
 F 3 "" H 14550 4700 60  0000 C CNN
 	1    14550 4700
 	1    0    0    -1  
@@ -1165,7 +1119,7 @@ U 1 1 5E85A331
 P 14550 5750
 F 0 "K59" H 14550 5983 60  0000 C CNN
 F 1 "KEYSW" H 14550 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 14550 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 14550 5750 60  0001 C CNN
 F 3 "" H 14550 5750 60  0000 C CNN
 	1    14550 5750
 	-1   0    0    1   
@@ -1176,7 +1130,7 @@ U 1 1 5E85B475
 P 13850 4700
 F 0 "K49" H 13850 4933 60  0000 C CNN
 F 1 "KEYSW" H 13850 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13850 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13850 4700 60  0001 C CNN
 F 3 "" H 13850 4700 60  0000 C CNN
 	1    13850 4700
 	1    0    0    -1  
@@ -1187,7 +1141,7 @@ U 1 1 5E85BD52
 P 13850 3750
 F 0 "K36" H 13850 3983 60  0000 C CNN
 F 1 "KEYSW" H 13850 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13850 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13850 3750 60  0001 C CNN
 F 3 "" H 13850 3750 60  0000 C CNN
 	1    13850 3750
 	-1   0    0    1   
@@ -1198,7 +1152,7 @@ U 1 1 5E85C5C2
 P 13150 3750
 F 0 "K35" H 13150 3983 60  0000 C CNN
 F 1 "KEYSW" H 13150 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13150 3750 60  0001 C CNN
 F 3 "" H 13150 3750 60  0000 C CNN
 	1    13150 3750
 	-1   0    0    1   
@@ -1209,7 +1163,7 @@ U 1 1 5E85D0A9
 P 12450 3750
 F 0 "K34" H 12450 3983 60  0000 C CNN
 F 1 "KEYSW" H 12450 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 12450 3750 60  0001 C CNN
 F 3 "" H 12450 3750 60  0000 C CNN
 	1    12450 3750
 	-1   0    0    1   
@@ -1220,7 +1174,7 @@ U 1 1 5E85DA92
 P 11750 3750
 F 0 "K33" H 11750 3983 60  0000 C CNN
 F 1 "KEYSW" H 11750 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11750 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11750 3750 60  0001 C CNN
 F 3 "" H 11750 3750 60  0000 C CNN
 	1    11750 3750
 	-1   0    0    1   
@@ -1231,7 +1185,7 @@ U 1 1 5E85EDC2
 P 9650 3750
 F 0 "K31" H 9650 3983 60  0000 C CNN
 F 1 "KEYSW" H 9650 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 9650 3750 60  0001 C CNN
 F 3 "" H 9650 3750 60  0000 C CNN
 	1    9650 3750
 	1    0    0    -1  
@@ -1243,7 +1197,7 @@ U 1 1 5E85F709
 P 8950 3750
 F 0 "K30" H 8950 3983 60  0000 C CNN
 F 1 "KEYSW" H 8950 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8950 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8950 3750 60  0001 C CNN
 F 3 "" H 8950 3750 60  0000 C CNN
 	1    8950 3750
 	1    0    0    -1  
@@ -1255,7 +1209,7 @@ U 1 1 5E860105
 P 8250 3750
 F 0 "K29" H 8250 3983 60  0000 C CNN
 F 1 "KEYSW" H 8250 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8250 3750 60  0001 C CNN
 F 3 "" H 8250 3750 60  0000 C CNN
 	1    8250 3750
 	1    0    0    -1  
@@ -1267,7 +1221,7 @@ U 1 1 5E860BCA
 P 8250 4700
 F 0 "K41" H 8250 4933 60  0000 C CNN
 F 1 "KEYSW" H 8250 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8250 4700 60  0001 C CNN
 F 3 "" H 8250 4700 60  0000 C CNN
 	1    8250 4700
 	-1   0    0    1   
@@ -1278,7 +1232,7 @@ U 1 1 5E8615E6
 P 8250 5750
 F 0 "K53" H 8250 5983 60  0000 C CNN
 F 1 "KEYSW" H 8250 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8250 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8250 5750 60  0001 C CNN
 F 3 "" H 8250 5750 60  0000 C CNN
 	1    8250 5750
 	1    0    0    -1  
@@ -1292,7 +1246,7 @@ U 1 1 5E861FB3
 P 8950 4700
 F 0 "K42" H 8950 4933 60  0000 C CNN
 F 1 "KEYSW" H 8950 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 8950 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 8950 4700 60  0001 C CNN
 F 3 "" H 8950 4700 60  0000 C CNN
 	1    8950 4700
 	-1   0    0    1   
@@ -1303,7 +1257,7 @@ U 1 1 5E862C1A
 P 9650 4700
 F 0 "K43" H 9650 4933 60  0000 C CNN
 F 1 "KEYSW" H 9650 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 9650 4700 60  0001 C CNN
 F 3 "" H 9650 4700 60  0000 C CNN
 	1    9650 4700
 	-1   0    0    1   
@@ -1314,7 +1268,7 @@ U 1 1 5E86366B
 P 10350 4700
 F 0 "K44" H 10350 4933 60  0000 C CNN
 F 1 "KEYSW" H 10350 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 10350 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 10350 4700 60  0001 C CNN
 F 3 "" H 10350 4700 60  0000 C CNN
 	1    10350 4700
 	-1   0    0    1   
@@ -1325,7 +1279,7 @@ U 1 1 5E864329
 P 11050 4700
 F 0 "K45" H 11050 4933 60  0000 C CNN
 F 1 "KEYSW" H 11050 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11050 4700 60  0001 C CNN
 F 3 "" H 11050 4700 60  0000 C CNN
 	1    11050 4700
 	1    0    0    -1  
@@ -1336,7 +1290,7 @@ U 1 1 5E864E85
 P 11750 4700
 F 0 "K46" H 11750 4933 60  0000 C CNN
 F 1 "KEYSW" H 11750 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11750 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11750 4700 60  0001 C CNN
 F 3 "" H 11750 4700 60  0000 C CNN
 	1    11750 4700
 	1    0    0    -1  
@@ -1347,7 +1301,7 @@ U 1 1 5E865825
 P 12450 4700
 F 0 "K47" H 12450 4933 60  0000 C CNN
 F 1 "KEYSW" H 12450 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 12450 4700 60  0001 C CNN
 F 3 "" H 12450 4700 60  0000 C CNN
 	1    12450 4700
 	1    0    0    -1  
@@ -1358,7 +1312,7 @@ U 1 1 5E86621B
 P 13150 4700
 F 0 "K48" H 13150 4933 60  0000 C CNN
 F 1 "KEYSW" H 13150 4600 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 4700 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13150 4700 60  0001 C CNN
 F 3 "" H 13150 4700 60  0000 C CNN
 	1    13150 4700
 	1    0    0    -1  
@@ -1369,7 +1323,7 @@ U 1 1 5E866C44
 P 10350 5750
 F 0 "K55" H 10350 5983 60  0000 C CNN
 F 1 "KEYSW" H 10350 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 10350 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 10350 5750 60  0001 C CNN
 F 3 "" H 10350 5750 60  0000 C CNN
 	1    10350 5750
 	1    0    0    -1  
@@ -1383,7 +1337,7 @@ U 1 1 5E8677AE
 P 11050 5750
 F 0 "K56" H 11050 5983 60  0000 C CNN
 F 1 "KEYSW" H 11050 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11050 5750 60  0001 C CNN
 F 3 "" H 11050 5750 60  0000 C CNN
 	1    11050 5750
 	-1   0    0    1   
@@ -1394,7 +1348,7 @@ U 1 1 5E868D81
 P 12450 5750
 F 0 "K57" H 12450 5983 60  0000 C CNN
 F 1 "KEYSW" H 12450 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 12450 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 12450 5750 60  0001 C CNN
 F 3 "" H 12450 5750 60  0000 C CNN
 	1    12450 5750
 	-1   0    0    1   
@@ -1405,7 +1359,7 @@ U 1 1 5E869777
 P 13150 5750
 F 0 "K58" H 13150 5983 60  0000 C CNN
 F 1 "KEYSW" H 13150 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 13150 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 13150 5750 60  0001 C CNN
 F 3 "" H 13150 5750 60  0000 C CNN
 	1    13150 5750
 	-1   0    0    1   
@@ -1416,7 +1370,7 @@ U 1 1 5E86A1AF
 P 9650 5750
 F 0 "K54" H 9650 5983 60  0000 C CNN
 F 1 "KEYSW" H 9650 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 9650 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 9650 5750 60  0001 C CNN
 F 3 "" H 9650 5750 60  0000 C CNN
 	1    9650 5750
 	1    0    0    -1  
@@ -1427,27 +1381,18 @@ Wire Wire Line
 Wire Wire Line
 	7950 6050 9350 6050
 NoConn ~ 7850 5450
-Wire Wire Line
-	10650 1150 10650 2800
-Connection ~ 10650 2800
-Wire Wire Line
-	10050 3100 10750 3100
-Wire Wire Line
-	10650 2800 10650 4700
 Connection ~ 10650 4700
 Wire Wire Line
 	10650 4700 10650 5750
 Wire Wire Line
 	10050 5000 10750 5000
-Wire Wire Line
-	11350 2800 11350 3750
 $Comp
 L keyboard_parts:KEYSW K32
 U 1 1 5E85E314
 P 11050 3750
 F 0 "K32" H 11050 3983 60  0000 C CNN
 F 1 "KEYSW" H 11050 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 11050 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 11050 3750 60  0001 C CNN
 F 3 "" H 11050 3750 60  0000 C CNN
 	1    11050 3750
 	-1   0    0    1   
@@ -1455,28 +1400,18 @@ $EndComp
 Connection ~ 11350 3750
 Wire Wire Line
 	10750 4050 11450 4050
-Wire Wire Line
-	12050 2800 12050 3750
 Connection ~ 12050 3750
 Wire Wire Line
 	11450 4050 12150 4050
-Wire Wire Line
-	12750 2800 12750 3750
 Connection ~ 12750 3750
 Wire Wire Line
 	12150 4050 12850 4050
-Wire Wire Line
-	13450 2800 13450 3750
 Connection ~ 13450 3750
 Wire Wire Line
 	12850 4050 13550 4050
-Wire Wire Line
-	14150 2800 14150 3750
 Connection ~ 14150 3750
 Wire Wire Line
 	13550 4050 14250 4050
-Wire Wire Line
-	14850 2800 14850 3750
 Connection ~ 14850 3750
 Wire Wire Line
 	14250 4050 15500 4050
@@ -1515,85 +1450,6 @@ Wire Wire Line
 	9950 4700 9950 5750
 Wire Wire Line
 	9350 5000 10050 5000
-Wire Wire Line
-	6450 1850 6450 2800
-Wire Wire Line
-	7150 1850 7150 2800
-Connection ~ 7150 2800
-Wire Wire Line
-	7150 2800 7150 3750
-Wire Wire Line
-	6550 3100 7250 3100
-Wire Wire Line
-	7850 1850 7850 2800
-Connection ~ 7850 2800
-Wire Wire Line
-	7850 2800 7850 3750
-Wire Wire Line
-	7250 3100 7950 3100
-Wire Wire Line
-	8550 1850 8550 2800
-Connection ~ 8550 2800
-Wire Wire Line
-	8550 2800 8550 3750
-Wire Wire Line
-	7950 3100 8650 3100
-Wire Wire Line
-	9250 1850 9250 2800
-Connection ~ 9250 2800
-Wire Wire Line
-	9250 2800 9250 3750
-Wire Wire Line
-	8650 3100 9350 3100
-Wire Wire Line
-	9950 1850 9950 2800
-Connection ~ 9950 2800
-Wire Wire Line
-	9950 2800 9950 3750
-Wire Wire Line
-	9350 3100 10050 3100
-Wire Wire Line
-	11350 1150 11350 1850
-Connection ~ 11350 1850
-Wire Wire Line
-	11350 1850 11350 2800
-Wire Wire Line
-	10750 2150 11450 2150
-Wire Wire Line
-	12050 1150 12050 1850
-Connection ~ 12050 1850
-Wire Wire Line
-	12050 1850 12050 2800
-Wire Wire Line
-	11450 2150 12150 2150
-Wire Wire Line
-	12750 1150 12750 1850
-Connection ~ 12750 1850
-Wire Wire Line
-	12750 1850 12750 2800
-Wire Wire Line
-	12150 2150 12850 2150
-Wire Wire Line
-	13450 1150 13450 1850
-Connection ~ 13450 1850
-Wire Wire Line
-	13450 1850 13450 2800
-Wire Wire Line
-	12850 2150 13550 2150
-Wire Wire Line
-	14150 1150 14150 1850
-Connection ~ 14150 1850
-Wire Wire Line
-	14150 1850 14150 2800
-Wire Wire Line
-	13550 2150 14250 2150
-Wire Wire Line
-	14850 1150 14850 1850
-Connection ~ 14850 1850
-Wire Wire Line
-	14850 1850 14850 2800
-Wire Wire Line
-	14250 2150 15600 2150
 $Comp
 L conn:CONN_5 P3
 U 1 1 5E8D5B52
@@ -1658,15 +1514,10 @@ Text Label 3950 3350 2    50   ~ 0
 col13
 Connection ~ 5850 2150
 Wire Wire Line
-	5850 2150 6550 2150
-Wire Wire Line
 	4950 2150 5850 2150
 Connection ~ 5850 3100
 Wire Wire Line
-	5850 3100 6550 3100
-Wire Wire Line
 	4950 3100 5850 3100
-Connection ~ 6450 2800
 Wire Wire Line
 	6550 4050 5850 4050
 $Comp
@@ -1686,15 +1537,13 @@ U 1 1 5E9CD5D9
 P 6150 3750
 F 0 "K26" H 6150 3983 60  0000 C CNN
 F 1 "KEYSW" H 6150 3650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 3750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6150 3750 60  0001 C CNN
 F 3 "" H 6150 3750 60  0000 C CNN
 	1    6150 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6450 3750 6450 4700
-Wire Wire Line
-	6450 2800 6450 3750
 Connection ~ 5850 4050
 Connection ~ 6450 3750
 Wire Wire Line
@@ -1713,7 +1562,7 @@ U 1 1 5E9CDE49
 P 6150 5750
 F 0 "K51" H 6150 5983 60  0000 C CNN
 F 1 "KEYSW" H 6150 5650 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional_r" H 6150 5750 60  0001 C CNN
+F 2 "keyswitches:SW_MX_1280" H 6150 5750 60  0001 C CNN
 F 3 "" H 6150 5750 60  0000 C CNN
 	1    6150 5750
 	1    0    0    -1  
@@ -1949,4 +1798,155 @@ $EndComp
 Wire Wire Line
 	2950 8900 2650 8900
 Connection ~ 2650 8900
+Wire Wire Line
+	10650 1150 10650 2800
+Connection ~ 10650 2800
+Wire Wire Line
+	10650 2800 10650 4700
+Wire Wire Line
+	10050 3100 10750 3100
+Connection ~ 11350 2800
+Wire Wire Line
+	11350 2800 11350 3750
+Wire Wire Line
+	10750 3100 11450 3100
+Connection ~ 9950 2800
+Wire Wire Line
+	9950 2800 9950 3750
+Wire Wire Line
+	9350 3100 10050 3100
+Wire Wire Line
+	11350 1150 11350 1850
+Connection ~ 11350 1850
+Wire Wire Line
+	11350 1850 11350 2800
+Wire Wire Line
+	10750 2150 11450 2150
+Wire Wire Line
+	9950 1150 9950 1850
+Connection ~ 9950 1850
+Wire Wire Line
+	9950 1850 9950 2800
+Wire Wire Line
+	9350 2150 10750 2150
+Wire Wire Line
+	6450 1150 6450 1850
+Connection ~ 6450 1850
+Wire Wire Line
+	5850 2150 6550 2150
+Wire Wire Line
+	7150 1150 7150 1850
+Connection ~ 7150 1850
+Wire Wire Line
+	6550 2150 7250 2150
+Wire Wire Line
+	7850 1150 7850 1850
+Connection ~ 7850 1850
+Wire Wire Line
+	7250 2150 7950 2150
+Wire Wire Line
+	8550 1150 8550 1850
+Connection ~ 8550 1850
+Wire Wire Line
+	7950 2150 8650 2150
+Wire Wire Line
+	9250 1150 9250 1850
+Connection ~ 9250 1850
+Wire Wire Line
+	8650 2150 9350 2150
+Wire Wire Line
+	12050 1150 12050 1850
+Connection ~ 12050 1850
+Wire Wire Line
+	11450 2150 12150 2150
+Wire Wire Line
+	12750 1150 12750 1850
+Connection ~ 12750 1850
+Wire Wire Line
+	12150 2150 12850 2150
+Wire Wire Line
+	13450 1150 13450 1850
+Connection ~ 13450 1850
+Wire Wire Line
+	12850 2150 13550 2150
+Wire Wire Line
+	14150 1150 14150 1850
+Connection ~ 14150 1850
+Wire Wire Line
+	13550 2150 14250 2150
+Wire Wire Line
+	14850 1150 14850 1850
+Connection ~ 14850 1850
+Wire Wire Line
+	14250 2150 15600 2150
+Wire Wire Line
+	14850 1850 14850 2800
+Connection ~ 14850 2800
+Wire Wire Line
+	14850 2800 14850 3750
+Wire Wire Line
+	14250 3100 15550 3100
+Wire Wire Line
+	14150 1850 14150 2800
+Connection ~ 14150 2800
+Wire Wire Line
+	14150 2800 14150 3750
+Wire Wire Line
+	13550 3100 14250 3100
+Wire Wire Line
+	13450 1850 13450 2800
+Connection ~ 13450 2800
+Wire Wire Line
+	13450 2800 13450 3750
+Wire Wire Line
+	12850 3100 13550 3100
+Wire Wire Line
+	12750 1850 12750 2800
+Connection ~ 12750 2800
+Wire Wire Line
+	12750 2800 12750 3750
+Wire Wire Line
+	12150 3100 12850 3100
+Wire Wire Line
+	12050 1850 12050 2800
+Connection ~ 12050 2800
+Wire Wire Line
+	12050 2800 12050 3750
+Wire Wire Line
+	11450 3100 12150 3100
+Wire Wire Line
+	6450 1850 6450 2800
+Connection ~ 6450 2800
+Wire Wire Line
+	6450 2800 6450 3750
+Wire Wire Line
+	5850 3100 6550 3100
+Wire Wire Line
+	7150 1850 7150 2800
+Connection ~ 7150 2800
+Wire Wire Line
+	7150 2800 7150 3750
+Wire Wire Line
+	6550 3100 7250 3100
+Wire Wire Line
+	7850 1850 7850 2800
+Connection ~ 7850 2800
+Wire Wire Line
+	7850 2800 7850 3750
+Wire Wire Line
+	7250 3100 7950 3100
+Wire Wire Line
+	8550 1850 8550 2800
+Connection ~ 8550 2800
+Wire Wire Line
+	8550 2800 8550 3750
+Wire Wire Line
+	7950 3100 8650 3100
+Wire Wire Line
+	9250 1850 9250 2800
+Connection ~ 9250 2800
+Wire Wire Line
+	9250 2800 9250 3750
+Wire Wire Line
+	8650 3100 9350 3100
 $EndSCHEMATC
