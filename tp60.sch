@@ -47,7 +47,7 @@ F 1 "KEYSW" H 6850 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 6850 1850 60  0001 C CNN
 F 3 "" H 6850 1850 60  0000 C CNN
 	1    6850 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K4
@@ -58,7 +58,7 @@ F 1 "KEYSW" H 8250 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 8250 1850 60  0001 C CNN
 F 3 "" H 8250 1850 60  0000 C CNN
 	1    8250 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K5
@@ -69,7 +69,7 @@ F 1 "KEYSW" H 8950 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 8950 1850 60  0001 C CNN
 F 3 "" H 8950 1850 60  0000 C CNN
 	1    8950 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K6
@@ -80,7 +80,7 @@ F 1 "KEYSW" H 9650 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 9650 1850 60  0001 C CNN
 F 3 "" H 9650 1850 60  0000 C CNN
 	1    9650 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K7
@@ -91,7 +91,7 @@ F 1 "KEYSW" H 11050 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 11050 1850 60  0001 C CNN
 F 3 "" H 11050 1850 60  0000 C CNN
 	1    11050 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K8
@@ -102,7 +102,7 @@ F 1 "KEYSW" H 11750 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 11750 1850 60  0001 C CNN
 F 3 "" H 11750 1850 60  0000 C CNN
 	1    11750 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K9
@@ -113,7 +113,7 @@ F 1 "KEYSW" H 12450 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 12450 1850 60  0001 C CNN
 F 3 "" H 12450 1850 60  0000 C CNN
 	1    12450 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K10
@@ -124,7 +124,7 @@ F 1 "KEYSW" H 13150 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 13150 1850 60  0001 C CNN
 F 3 "" H 13150 1850 60  0000 C CNN
 	1    13150 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K11
@@ -135,7 +135,7 @@ F 1 "KEYSW" H 13850 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 13850 1850 60  0001 C CNN
 F 3 "" H 13850 1850 60  0000 C CNN
 	1    13850 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K12
@@ -313,7 +313,7 @@ F 1 "KEYSW" H 7550 1750 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 7550 1850 60  0001 C CNN
 F 3 "" H 7550 1850 60  0000 C CNN
 	1    7550 1850
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D13
@@ -741,11 +741,8 @@ F 1 "KEYSW" H 7550 5650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 7550 5750 60  0001 C CNN
 F 3 "" H 7550 5750 60  0000 C CNN
 	1    7550 5750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 7850 5750
-Wire Wire Line
-	7850 5750 7850 6750
 $Comp
 L keyboard_parts:KEYSW K39
 U 1 1 5E9DF2B6
@@ -803,8 +800,6 @@ F 3 "~" H 7950 5900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 7950 6050
-Wire Wire Line
-	7950 6050 7250 6050
 $Comp
 L Device:D D42
 U 1 1 5E8265E2
@@ -918,8 +913,6 @@ F 3 "~" H 10050 5900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 10050 6050
-Wire Wire Line
-	10050 6050 9350 6050
 $Comp
 L Device:D D56
 U 1 1 5E82F8DA
@@ -932,8 +925,6 @@ F 3 "~" H 10750 5900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 10750 6050
-Wire Wire Line
-	10750 6050 10050 6050
 $Comp
 L Device:D D57
 U 1 1 5E830955
@@ -1100,7 +1091,7 @@ F 1 "KEYSW" H 14550 3650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 14550 3750 60  0001 C CNN
 F 3 "" H 14550 3750 60  0000 C CNN
 	1    14550 3750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K50
@@ -1235,11 +1226,8 @@ F 1 "KEYSW" H 8250 5650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 8250 5750 60  0001 C CNN
 F 3 "" H 8250 5750 60  0000 C CNN
 	1    8250 5750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 8550 5750
-Wire Wire Line
-	8550 5750 8550 6750
 $Comp
 L keyboard_parts:KEYSW K42
 U 1 1 5E861FB3
@@ -1326,11 +1314,8 @@ F 1 "KEYSW" H 10350 5650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 10350 5750 60  0001 C CNN
 F 3 "" H 10350 5750 60  0000 C CNN
 	1    10350 5750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 10650 5750
-Wire Wire Line
-	10650 5750 10650 6750
 $Comp
 L keyboard_parts:KEYSW K56
 U 1 1 5E8677AE
@@ -1340,7 +1325,7 @@ F 1 "KEYSW" H 11050 5650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 11050 5750 60  0001 C CNN
 F 3 "" H 11050 5750 60  0000 C CNN
 	1    11050 5750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K57
@@ -1351,7 +1336,7 @@ F 1 "KEYSW" H 12450 5650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 12450 5750 60  0001 C CNN
 F 3 "" H 12450 5750 60  0000 C CNN
 	1    12450 5750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K58
@@ -1362,7 +1347,7 @@ F 1 "KEYSW" H 13150 5650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 13150 5750 60  0001 C CNN
 F 3 "" H 13150 5750 60  0000 C CNN
 	1    13150 5750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L keyboard_parts:KEYSW K54
@@ -1373,17 +1358,10 @@ F 1 "KEYSW" H 9650 5650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 9650 5750 60  0001 C CNN
 F 3 "" H 9650 5750 60  0000 C CNN
 	1    9650 5750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Connection ~ 9950 5750
-Wire Wire Line
-	9950 5750 9950 6750
-Wire Wire Line
-	7950 6050 9350 6050
 NoConn ~ 7850 5450
 Connection ~ 10650 4700
-Wire Wire Line
-	10650 4700 10650 5750
 Wire Wire Line
 	10050 5000 10750 5000
 $Comp
@@ -1412,9 +1390,6 @@ Wire Wire Line
 Connection ~ 14150 3750
 Wire Wire Line
 	13550 4050 14250 4050
-Connection ~ 14850 3750
-Wire Wire Line
-	14250 4050 15500 4050
 Wire Wire Line
 	7150 3750 7150 4700
 Connection ~ 7150 4700
@@ -1426,14 +1401,10 @@ Wire Wire Line
 	7850 3750 7850 4700
 Connection ~ 7850 4700
 Wire Wire Line
-	7850 4700 7850 5750
-Wire Wire Line
 	7250 5000 7950 5000
 Wire Wire Line
 	8550 3750 8550 4700
 Connection ~ 8550 4700
-Wire Wire Line
-	8550 4700 8550 5750
 Wire Wire Line
 	7950 5000 8650 5000
 Wire Wire Line
@@ -1447,44 +1418,16 @@ Wire Wire Line
 	9950 3750 9950 4700
 Connection ~ 9950 4700
 Wire Wire Line
-	9950 4700 9950 5750
-Wire Wire Line
 	9350 5000 10050 5000
-$Comp
-L conn:CONN_5 P3
-U 1 1 5E8D5B52
-P 3050 3200
-F 0 "P3" H 3178 3257 50  0000 L CNN
-F 1 "CONN_5" H 3178 3166 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 3200 50  0001 C CNN
-F 3 "" H 3050 3200 50  0001 C CNN
-	1    3050 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:CONN_5 P1
-U 1 1 5E92188A
-P 3250 2350
-F 0 "P1" H 3378 2407 50  0000 L CNN
-F 1 "CONN_5" H 3378 2316 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3250 2350 50  0001 C CNN
-F 3 "" H 3250 2350 50  0001 C CNN
-	1    3250 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 4700 6450 5750
 Text Label 4950 2150 2    50   ~ 0
 row1
-Text Label 2850 2150 2    50   ~ 0
-row1
-Text Label 2850 2250 2    50   ~ 0
+Text Label 3150 1750 2    50   ~ 0
 row2
-Text Label 2850 2350 2    50   ~ 0
+Text Label 3150 1850 2    50   ~ 0
 row3
-Text Label 2850 2450 2    50   ~ 0
+Text Label 3150 1950 2    50   ~ 0
 row4
-Text Label 2850 2550 2    50   ~ 0
+Text Label 3150 2050 2    50   ~ 0
 row5
 Text Label 1450 3050 2    50   ~ 0
 col01
@@ -1494,16 +1437,6 @@ Text Label 1450 3250 2    50   ~ 0
 col03
 Text Label 1450 3350 2    50   ~ 0
 col04
-Text Label 2650 3000 2    50   ~ 0
-col05
-Text Label 2650 3100 2    50   ~ 0
-col06
-Text Label 2650 3200 2    50   ~ 0
-col07
-Text Label 2650 3300 2    50   ~ 0
-col08
-Text Label 2650 3400 2    50   ~ 0
-col09
 Text Label 3950 3050 2    50   ~ 0
 col10
 Text Label 3950 3150 2    50   ~ 0
@@ -1518,8 +1451,6 @@ Wire Wire Line
 Connection ~ 5850 3100
 Wire Wire Line
 	4950 3100 5850 3100
-Wire Wire Line
-	6550 4050 5850 4050
 $Comp
 L Device:D D26
 U 1 1 5E9A2C7C
@@ -1540,12 +1471,9 @@ F 1 "KEYSW" H 6150 3650 60  0001 C CNN
 F 2 "keyswitches:SW_MX_1280" H 6150 3750 60  0001 C CNN
 F 3 "" H 6150 3750 60  0000 C CNN
 	1    6150 3750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6450 3750 6450 4700
 Connection ~ 5850 4050
-Connection ~ 6450 3750
 Wire Wire Line
 	4950 4050 5850 4050
 Connection ~ 5850 5000
@@ -1554,8 +1482,6 @@ Wire Wire Line
 Connection ~ 6450 4700
 Wire Wire Line
 	4950 5000 5850 5000
-Wire Wire Line
-	6450 5750 6450 6750
 $Comp
 L keyboard_parts:KEYSW K51
 U 1 1 5E9CDE49
@@ -1579,9 +1505,6 @@ F 3 "~" H 5850 5900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 5850 6050
-Wire Wire Line
-	5850 6050 7250 6050
-Connection ~ 6450 5750
 Wire Wire Line
 	4900 6050 5850 6050
 Wire Wire Line
@@ -1613,51 +1536,20 @@ Wire Wire Line
 	14150 4700 14150 6750
 Wire Wire Line
 	13550 5000 14250 5000
-Wire Wire Line
-	14850 3750 14850 4700
 Connection ~ 14850 4700
 Wire Wire Line
 	14250 5000 15500 5000
-Wire Wire Line
-	14850 4700 14850 5750
-Connection ~ 14850 5750
-Wire Wire Line
-	14850 5750 14850 6750
-Wire Wire Line
-	14250 6050 15500 6050
-Wire Wire Line
-	13450 4700 13450 5750
-Connection ~ 13450 5750
-Wire Wire Line
-	13450 5750 13450 6750
-Wire Wire Line
-	12850 6050 14250 6050
-Wire Wire Line
-	12750 4700 12750 5750
-Connection ~ 12750 5750
-Wire Wire Line
-	12750 5750 12750 6750
-Wire Wire Line
-	12150 6050 12850 6050
-Wire Wire Line
-	11350 4700 11350 5750
-Connection ~ 11350 5750
-Wire Wire Line
-	11350 5750 11350 6750
-Wire Wire Line
-	10750 6050 12150 6050
 $Comp
 L power:+5V #PWR0102
 U 1 1 5EA24F04
-P 3550 7400
-F 0 "#PWR0102" H 3550 7250 50  0001 C CNN
-F 1 "+5V" H 3565 7573 50  0000 C CNN
-F 2 "" H 3550 7400 50  0001 C CNN
-F 3 "" H 3550 7400 50  0001 C CNN
-	1    3550 7400
+P 2850 7850
+F 0 "#PWR0102" H 2850 7700 50  0001 C CNN
+F 1 "+5V" H 2865 8023 50  0000 C CNN
+F 2 "" H 2850 7850 50  0001 C CNN
+F 3 "" H 2850 7850 50  0001 C CNN
+	1    2850 7850
 	1    0    0    -1  
 $EndComp
-Connection ~ 3550 7400
 $Comp
 L conn:CONN_4 P2
 U 1 1 5EA39ACE
@@ -1691,113 +1583,17 @@ F 3 "~" H 1950 5750 50  0001 C CNN
 	1    1950 5750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 5350 3700 5350
-Wire Wire Line
-	2150 5850 3700 5850
-Wire Wire Line
-	3700 5750 2150 5750
-Wire Wire Line
-	2150 5650 3700 5650
-Wire Wire Line
-	3700 5550 2150 5550
-Wire Wire Line
-	2150 5450 3700 5450
-NoConn ~ 1950 6450
-Wire Wire Line
-	2150 5950 3700 5950
-Wire Wire Line
-	2150 6050 3700 6050
-$Comp
-L conn:CONN_10 P6
-U 1 1 5EA11EA8
-P 4050 5800
-F 0 "P6" H 4178 5848 60  0000 L CNN
-F 1 "CONN_10" H 4178 5742 60  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 4050 5800 50  0001 C CNN
-F 3 "" H 4050 5800 50  0001 C CNN
-	1    4050 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 6150 3700 6150
-Wire Wire Line
-	3700 6250 2150 6250
-$Comp
-L Connector:USB_C_Plug_USB2.0 P7
-U 1 1 5E9D39A2
-P 2950 8000
-F 0 "P7" H 3057 8867 50  0000 C CNN
-F 1 "CONN_8" H 3057 8776 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 3100 8000 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3100 8000 50  0001 C CNN
-	1    2950 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:CONN_4 P5
-U 1 1 5EAD102A
-P 4400 8050
-F 0 "P5" H 4528 8091 50  0000 L CNN
-F 1 "CONN_4" H 4528 8000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4400 8050 50  0001 C CNN
-F 3 "" H 4400 8050 50  0001 C CNN
-	1    4400 8050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 8100 4050 8100
-Wire Wire Line
-	4050 7400 4050 7900
-Wire Wire Line
-	3550 7900 3550 8000
-Wire Wire Line
-	3550 8000 4050 8000
-Wire Wire Line
-	4050 8200 4050 8900
-Wire Wire Line
-	4050 8900 2950 8900
-Wire Wire Line
-	4050 7400 3550 7400
-NoConn ~ 3550 7600
-NoConn ~ 3550 7700
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5EA25E89
-P 3550 7400
-F 0 "#FLG0103" H 3550 7475 50  0001 C CNN
-F 1 "PWR_FLAG" H 3550 7573 50  0000 C CNN
-F 2 "" H 3550 7400 50  0001 C CNN
-F 3 "~" H 3550 7400 50  0001 C CNN
-	1    3550 7400
+P 2850 7950
+F 0 "#FLG0103" H 2850 8025 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 8123 50  0000 C CNN
+F 2 "" H 2850 7950 50  0001 C CNN
+F 3 "~" H 2850 7950 50  0001 C CNN
+	1    2850 7950
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5EB2A8AA
-P 2950 8900
-F 0 "#PWR0101" H 2950 8650 50  0001 C CNN
-F 1 "GND" H 2955 8727 50  0000 C CNN
-F 2 "" H 2950 8900 50  0001 C CNN
-F 3 "" H 2950 8900 50  0001 C CNN
-	1    2950 8900
-	1    0    0    -1  
-$EndComp
-Connection ~ 2950 8900
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5EB2B625
-P 2650 8900
-F 0 "#FLG0101" H 2650 8975 50  0001 C CNN
-F 1 "PWR_FLAG" V 2650 9027 50  0000 L CNN
-F 2 "" H 2650 8900 50  0001 C CNN
-F 3 "~" H 2650 8900 50  0001 C CNN
-	1    2650 8900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2950 8900 2650 8900
-Connection ~ 2650 8900
 Wire Wire Line
 	10650 1150 10650 2800
 Connection ~ 10650 2800
@@ -1815,13 +1611,54 @@ Wire Wire Line
 	9950 2800 9950 3750
 Wire Wire Line
 	9350 3100 10050 3100
+Connection ~ 14850 2800
 Wire Wire Line
-	11350 1150 11350 1850
-Connection ~ 11350 1850
+	14250 3100 15550 3100
+Connection ~ 14150 2800
 Wire Wire Line
-	11350 1850 11350 2800
+	14150 2800 14150 3750
 Wire Wire Line
-	10750 2150 11450 2150
+	13550 3100 14250 3100
+Connection ~ 13450 2800
+Wire Wire Line
+	13450 2800 13450 3750
+Wire Wire Line
+	12850 3100 13550 3100
+Connection ~ 12750 2800
+Wire Wire Line
+	12750 2800 12750 3750
+Wire Wire Line
+	12150 3100 12850 3100
+Connection ~ 12050 2800
+Wire Wire Line
+	12050 2800 12050 3750
+Wire Wire Line
+	11450 3100 12150 3100
+Connection ~ 6450 2800
+Wire Wire Line
+	5850 3100 6550 3100
+Connection ~ 7150 2800
+Wire Wire Line
+	7150 2800 7150 3750
+Wire Wire Line
+	6550 3100 7250 3100
+Connection ~ 7850 2800
+Wire Wire Line
+	7850 2800 7850 3750
+Wire Wire Line
+	7250 3100 7950 3100
+Connection ~ 8550 2800
+Wire Wire Line
+	8550 2800 8550 3750
+Wire Wire Line
+	7950 3100 8650 3100
+Connection ~ 9250 2800
+Wire Wire Line
+	9250 2800 9250 3750
+Wire Wire Line
+	8650 3100 9350 3100
+Text Notes 12150 10350 0    89   ~ 18
+TP60
 Wire Wire Line
 	9950 1150 9950 1850
 Connection ~ 9950 1850
@@ -1830,123 +1667,365 @@ Wire Wire Line
 Wire Wire Line
 	9350 2150 10750 2150
 Wire Wire Line
-	6450 1150 6450 1850
-Connection ~ 6450 1850
+	9250 1150 9250 1850
+Connection ~ 9250 1850
 Wire Wire Line
-	5850 2150 6550 2150
+	9250 1850 9250 2800
 Wire Wire Line
-	7150 1150 7150 1850
-Connection ~ 7150 1850
-Wire Wire Line
-	6550 2150 7250 2150
-Wire Wire Line
-	7850 1150 7850 1850
-Connection ~ 7850 1850
-Wire Wire Line
-	7250 2150 7950 2150
+	8650 2150 9350 2150
 Wire Wire Line
 	8550 1150 8550 1850
 Connection ~ 8550 1850
 Wire Wire Line
+	8550 1850 8550 2800
+Wire Wire Line
 	7950 2150 8650 2150
 Wire Wire Line
-	9250 1150 9250 1850
-Connection ~ 9250 1850
+	7850 1150 7850 1850
+Connection ~ 7850 1850
 Wire Wire Line
-	8650 2150 9350 2150
+	7850 1850 7850 2800
+Wire Wire Line
+	7250 2150 7950 2150
+Wire Wire Line
+	7150 1150 7150 1850
+Connection ~ 7150 1850
+Wire Wire Line
+	7150 1850 7150 2800
+Wire Wire Line
+	6550 2150 7250 2150
+Wire Wire Line
+	11350 1150 11350 1850
+Connection ~ 11350 1850
+Wire Wire Line
+	11350 1850 11350 2800
+Wire Wire Line
+	10750 2150 11450 2150
 Wire Wire Line
 	12050 1150 12050 1850
 Connection ~ 12050 1850
+Wire Wire Line
+	12050 1850 12050 2800
 Wire Wire Line
 	11450 2150 12150 2150
 Wire Wire Line
 	12750 1150 12750 1850
 Connection ~ 12750 1850
 Wire Wire Line
+	12750 1850 12750 2800
+Wire Wire Line
 	12150 2150 12850 2150
 Wire Wire Line
 	13450 1150 13450 1850
 Connection ~ 13450 1850
+Wire Wire Line
+	13450 1850 13450 2800
 Wire Wire Line
 	12850 2150 13550 2150
 Wire Wire Line
 	14150 1150 14150 1850
 Connection ~ 14150 1850
 Wire Wire Line
+	14150 1850 14150 2800
+Wire Wire Line
 	13550 2150 14250 2150
+Wire Wire Line
+	13450 4700 13450 5750
+Connection ~ 13450 5750
+Wire Wire Line
+	13450 5750 13450 6750
+Wire Wire Line
+	12850 6050 14250 6050
+Wire Wire Line
+	12750 4700 12750 5750
+Connection ~ 12750 5750
+Wire Wire Line
+	12750 5750 12750 6750
+Wire Wire Line
+	12150 6050 12850 6050
+Wire Wire Line
+	11350 4700 11350 5750
+Connection ~ 11350 5750
+Wire Wire Line
+	11350 5750 11350 6750
+Wire Wire Line
+	10750 6050 12150 6050
+Wire Wire Line
+	9950 4700 9950 5750
+Connection ~ 9950 5750
+Wire Wire Line
+	9950 5750 9950 6750
+Wire Wire Line
+	9350 6050 10050 6050
+Wire Wire Line
+	8550 4700 8550 5750
+Connection ~ 8550 5750
+Wire Wire Line
+	8550 5750 8550 6750
+Wire Wire Line
+	7950 6050 9350 6050
+Wire Wire Line
+	7850 4700 7850 5750
+Connection ~ 7850 5750
+Wire Wire Line
+	7850 5750 7850 6750
+Wire Wire Line
+	7250 6050 7950 6050
+Wire Wire Line
+	10650 4700 10650 5750
+Connection ~ 10650 5750
+Wire Wire Line
+	10650 5750 10650 6750
+Wire Wire Line
+	10050 6050 10750 6050
+Wire Wire Line
+	6450 1150 6450 1850
+Connection ~ 6450 1850
+Wire Wire Line
+	6450 1850 6450 2800
+Wire Wire Line
+	5850 2150 6550 2150
 Wire Wire Line
 	14850 1150 14850 1850
 Connection ~ 14850 1850
 Wire Wire Line
+	14850 1850 14850 2800
+Wire Wire Line
 	14250 2150 15600 2150
 Wire Wire Line
-	14850 1850 14850 2800
-Connection ~ 14850 2800
+	14850 4700 14850 5750
+Connection ~ 14850 5750
 Wire Wire Line
-	14850 2800 14850 3750
+	14850 5750 14850 6750
 Wire Wire Line
-	14250 3100 15550 3100
+	14250 6050 15500 6050
 Wire Wire Line
-	14150 1850 14150 2800
-Connection ~ 14150 2800
+	6450 4700 6450 5750
+Connection ~ 6450 5750
 Wire Wire Line
-	14150 2800 14150 3750
+	6450 5750 6450 6750
 Wire Wire Line
-	13550 3100 14250 3100
-Wire Wire Line
-	13450 1850 13450 2800
-Connection ~ 13450 2800
-Wire Wire Line
-	13450 2800 13450 3750
-Wire Wire Line
-	12850 3100 13550 3100
-Wire Wire Line
-	12750 1850 12750 2800
-Connection ~ 12750 2800
-Wire Wire Line
-	12750 2800 12750 3750
-Wire Wire Line
-	12150 3100 12850 3100
-Wire Wire Line
-	12050 1850 12050 2800
-Connection ~ 12050 2800
-Wire Wire Line
-	12050 2800 12050 3750
-Wire Wire Line
-	11450 3100 12150 3100
-Wire Wire Line
-	6450 1850 6450 2800
-Connection ~ 6450 2800
+	5850 6050 7250 6050
 Wire Wire Line
 	6450 2800 6450 3750
+Connection ~ 6450 3750
 Wire Wire Line
-	5850 3100 6550 3100
+	6450 3750 6450 4700
 Wire Wire Line
-	7150 1850 7150 2800
-Connection ~ 7150 2800
+	5850 4050 6550 4050
 Wire Wire Line
-	7150 2800 7150 3750
+	14850 2800 14850 3750
+Connection ~ 14850 3750
 Wire Wire Line
-	6550 3100 7250 3100
+	14850 3750 14850 4700
 Wire Wire Line
-	7850 1850 7850 2800
-Connection ~ 7850 2800
+	14250 4050 15500 4050
+Text Label 2650 3300 2    50   ~ 0
+col08
+Text Label 2650 3200 2    50   ~ 0
+col07
+Text Label 2650 3100 2    50   ~ 0
+col06
+Text Label 2650 3000 2    50   ~ 0
+col05
+Text Label 2650 3400 2    50   ~ 0
+col09
+$Comp
+L conn:CONN_5 P3
+U 1 1 5E8D5B52
+P 3050 3200
+F 0 "P3" H 3178 3257 50  0000 L CNN
+F 1 "CONN_5" H 3178 3166 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 3200 50  0001 C CNN
+F 3 "" H 3050 3200 50  0001 C CNN
+	1    3050 3200
+	1    0    0    -1  
+$EndComp
+Text Label 3150 1650 2    50   ~ 0
+row1
+$Comp
+L conn:CONN_6 P1
+U 1 1 5E92188A
+P 3500 1900
+F 0 "P1" H 3628 1957 50  0000 L CNN
+F 1 "CONN_6" H 3628 1866 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3500 1900 50  0001 C CNN
+F 3 "" H 3500 1900 50  0001 C CNN
+	1    3500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 5F58C3AE
+P 2850 2150
+F 0 "SW1" H 2850 2405 50  0000 C CNN
+F 1 "SW_PUSH" H 2850 2314 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 2850 1993 60  0000 C CNN
+F 3 "" H 2850 2150 60  0000 C CNN
+	1    2850 2150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7850 2800 7850 3750
+	2150 5350 3700 5350
 Wire Wire Line
-	7250 3100 7950 3100
+	3700 6250 2150 6250
 Wire Wire Line
-	8550 1850 8550 2800
-Connection ~ 8550 2800
+	2150 6150 3700 6150
 Wire Wire Line
-	8550 2800 8550 3750
+	2150 6050 3700 6050
 Wire Wire Line
-	7950 3100 8650 3100
+	2150 5950 3700 5950
 Wire Wire Line
-	9250 1850 9250 2800
-Connection ~ 9250 2800
+	2150 5850 3700 5850
 Wire Wire Line
-	9250 2800 9250 3750
+	3700 5750 2150 5750
 Wire Wire Line
-	8650 3100 9350 3100
+	2150 5650 3700 5650
+Wire Wire Line
+	3700 5550 2150 5550
+Wire Wire Line
+	2150 5450 3700 5450
+$Comp
+L conn:CONN_10 P6
+U 1 1 5EA11EA8
+P 4050 5800
+F 0 "P6" H 4178 5848 60  0000 L CNN
+F 1 "CONN_10" H 4178 5742 60  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4050 5800 50  0001 C CNN
+F 3 "" H 4050 5800 50  0001 C CNN
+	1    4050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 P7
+U 1 1 5E9D39A2
+P 2250 8550
+F 0 "P7" H 2357 9417 50  0000 C CNN
+F 1 "CONN_8" H 2357 9326 50  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-PIN" H 2400 8550 50  0001 C CNN
+F 3 "http://www.smtswitch.com/uploads/soft/180122/1-1P1221F635.pdf" H 2400 8550 50  0001 C CNN
+	1    2250 8550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 9450
+Wire Wire Line
+	2850 7850 2850 7950
+Connection ~ 2850 7950
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EB2B625
+P 1950 9450
+F 0 "#FLG0101" H 1950 9525 50  0001 C CNN
+F 1 "PWR_FLAG" V 1950 9577 50  0000 L CNN
+F 2 "" H 1950 9450 50  0001 C CNN
+F 3 "~" H 1950 9450 50  0001 C CNN
+	1    1950 9450
+	-1   0    0    1   
+$EndComp
+Connection ~ 1950 9450
+$Comp
+L power:GND #PWR0101
+U 1 1 5EB2A8AA
+P 2250 9450
+F 0 "#PWR0101" H 2250 9200 50  0001 C CNN
+F 1 "GND" H 2255 9277 50  0000 C CNN
+F 2 "" H 2250 9450 50  0001 C CNN
+F 3 "" H 2250 9450 50  0001 C CNN
+	1    2250 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_5X2 P5
+U 1 1 5EAD102A
+P 4400 8650
+F 0 "P5" H 4528 8691 50  0000 L CNN
+F 1 "CONN_4" H 4528 8600 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4400 8650 50  0001 C CNN
+F 3 "" H 4400 8650 50  0001 C CNN
+	1    4400 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 9450 2250 9450
+Wire Wire Line
+	2850 8450 4000 8450
+Wire Wire Line
+	4800 8450 4800 8350
+Wire Wire Line
+	4800 8350 2950 8350
+Wire Wire Line
+	2950 8350 2950 8650
+Wire Wire Line
+	2950 8650 2850 8650
+Wire Wire Line
+	4000 8550 3500 8550
+Wire Wire Line
+	3500 8550 3500 8750
+Wire Wire Line
+	3500 8750 2850 8750
+Wire Wire Line
+	4800 8550 4900 8550
+Wire Wire Line
+	4900 8550 4900 8250
+Wire Wire Line
+	4900 8250 3200 8250
+Wire Wire Line
+	3200 8250 3200 8550
+Wire Wire Line
+	3200 8550 2850 8550
+Wire Wire Line
+	4000 8650 3750 8650
+Wire Wire Line
+	3750 8650 3750 9050
+Wire Wire Line
+	3750 9050 2850 9050
+Wire Wire Line
+	4000 8750 3900 8750
+Wire Wire Line
+	3900 8750 3900 8150
+Wire Wire Line
+	3900 8150 3100 8150
+Wire Wire Line
+	3100 8150 3100 8250
+Wire Wire Line
+	3100 8250 2850 8250
+Wire Wire Line
+	4800 8650 5000 8650
+Wire Wire Line
+	5000 8650 5000 8050
+Wire Wire Line
+	5000 8050 3000 8050
+Wire Wire Line
+	3000 8050 3000 8150
+Wire Wire Line
+	3000 8150 2850 8150
+Wire Wire Line
+	4800 8750 5000 8750
+Wire Wire Line
+	5000 8750 5000 9150
+Wire Wire Line
+	5000 9150 2850 9150
+Wire Wire Line
+	4000 8850 4000 9450
+Wire Wire Line
+	4000 9450 2250 9450
+Wire Wire Line
+	4800 8850 4800 8950
+Wire Wire Line
+	4800 8950 3350 8950
+Wire Wire Line
+	3350 8950 3350 7950
+Wire Wire Line
+	3350 7950 2850 7950
+Wire Wire Line
+	2550 2150 1100 2150
+Wire Wire Line
+	1100 2150 1100 6450
+Wire Wire Line
+	1100 9450 1950 9450
+Wire Wire Line
+	1950 6450 1100 6450
+Connection ~ 1100 6450
+Wire Wire Line
+	1100 6450 1100 9450
 $EndSCHEMATC
