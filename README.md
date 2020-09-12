@@ -11,8 +11,8 @@ https://github.com/gzeronet/teensy-trackpoint-tmk-keyboard/
 
 ### Front
 
-![tp60-F.png](img/tp60-F.png){ width="800"}
+![tp60-F.png](img/tp60-F.png)
 
 ### Back
 
-![tp60-B.png](img/tp60-B.png){ width="800"}
+![tp60-B.png](img/tp60-B.png)
